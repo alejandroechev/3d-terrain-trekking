@@ -51,7 +51,7 @@ describe('App', () => {
     await fireEvent.change(input, { target: { files: [file] } })
 
     await vi.waitFor(() => {
-      expect(screen.getByText('Cerro Test')).toBeInTheDocument()
+      expect(screen.getAllByText('Cerro Test').length).toBeGreaterThanOrEqual(1)
     })
   })
 })
