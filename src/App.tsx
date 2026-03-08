@@ -3,6 +3,7 @@ import { Scene3D } from './ui/terrain/Scene3D'
 import { GPXImporter } from './ui/routes/GPXImporter'
 import { TerrainControls } from './ui/controls/TerrainControls'
 import { ElevationProfileChart } from './ui/analysis/ElevationProfileChart'
+import { RouteComparison } from './ui/analysis/RouteComparison'
 import type { GPXRoute } from './domain/gpx/gpx-parser'
 import { calculateRouteStats } from './domain/gpx/route-stats'
 import { calculateDifficulty } from './domain/difficulty/difficulty'
@@ -50,6 +51,7 @@ function App() {
             </div>
           )
         })}
+        <RouteComparison routes={routes} />
       </div>
     </div>
   )
