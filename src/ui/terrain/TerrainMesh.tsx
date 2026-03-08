@@ -1,6 +1,7 @@
 import { useMemo } from 'react'
 import * as THREE from 'three'
 import { buildTerrainGeometryData } from '../../domain/elevation/terrain-geometry'
+import { elevationToColor } from '../../domain/elevation/elevation-color'
 import { PUERTO_VARAS_CENTER } from '../../domain/geo/scene-config'
 import { latLngToTile } from '../../domain/elevation/elevation'
 import { useTerrainData } from '../../hooks/useTerrainData'
@@ -24,7 +25,6 @@ export function TerrainMesh({ exaggeration, meshSize, zoom = 12 }: TerrainMeshPr
     if (!heightmap) return null
 
     const elevationRange = heightmap.maxElevation - heightmap.minElevation
-    // Normalize elevation so that the range maps to ~30% of mesh width at exaggeration=1
     const scale = elevationRange > 0
       ? (meshSize * 0.3 * exaggeration) / elevationRange
       : exaggeration
@@ -39,6 +39,25 @@ export function TerrainMesh({ exaggeration, meshSize, zoom = 12 }: TerrainMeshPr
     geo.setAttribute('position', new THREE.BufferAttribute(data.positions, 3))
     geo.setAttribute('uv', new THREE.BufferAttribute(data.uvs, 2))
     geo.setIndex(new THREE.BufferAttribute(data.indices, 1))
+
+    // Vertex colors based on elevation
+    const rows = heightmap.length
+    const cols = heightmap[0].length
+    const colors = new Float32Array(rows * cols * 3)
+    for (let r = 0; r < rows; r++) {
+      for (let c = 0; c < cols; c++) {
+        const idx = r * cols + c
+        const rgb = elevationToColor(
+          heightmap[r][c],
+          heightmap.minElevation,
+          heightmap.maxElevation
+        )
+        colors[idx * 3] = rgb.r
+        colors[idx * 3 + 1] = rgb.g
+        colors[idx * 3 + 2] = rgb.b
+      }
+    }
+    geo.setAttribute('color', new THREE.BufferAttribute(colors, 3))
     geo.computeVertexNormals()
     return geo
   }, [heightmap, exaggeration, meshSize])
@@ -48,8 +67,7 @@ export function TerrainMesh({ exaggeration, meshSize, zoom = 12 }: TerrainMeshPr
   return (
     <mesh geometry={geometry}>
       <meshStandardMaterial
-        color="#4a7c59"
-        wireframe={false}
+        vertexColors
         flatShading
         side={THREE.DoubleSide}
       />
