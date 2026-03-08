@@ -1,6 +1,7 @@
 import { Canvas } from '@react-three/fiber'
 import { OrbitControls, Grid } from '@react-three/drei'
 import { getDefaultSceneConfig } from '../../domain/geo/scene-config'
+import { TerrainMesh } from './TerrainMesh'
 
 function SceneLighting() {
   const config = getDefaultSceneConfig()
@@ -47,6 +48,7 @@ export function Scene3D() {
     >
       <SceneLighting />
       <TerrainGrid />
+      <TerrainMesh exaggeration={1} meshSize={100} />
       <OrbitControls
         enableDamping
         dampingFactor={0.05}
