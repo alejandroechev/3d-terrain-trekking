@@ -1,7 +1,19 @@
 import { Canvas } from '@react-three/fiber'
 import { OrbitControls, Grid } from '@react-three/drei'
-import { getDefaultSceneConfig } from '../../domain/geo/scene-config'
+import { getDefaultSceneConfig, PUERTO_VARAS_CENTER } from '../../domain/geo/scene-config'
 import { TerrainMesh } from './TerrainMesh'
+import { Route3D } from '../routes/Route3D'
+import { latLngToTile, tileToBBox } from '../../domain/elevation/elevation'
+import type { GPXRoute } from '../../domain/gpx/gpx-parser'
+import { useMemo } from 'react'
+
+const MESH_SIZE = 100
+const ZOOM = 12
+
+interface Scene3DProps {
+  routes?: GPXRoute[]
+  exaggeration?: number
+}
 
 function SceneLighting() {
   const config = getDefaultSceneConfig()
@@ -33,9 +45,14 @@ function TerrainGrid() {
   )
 }
 
-export function Scene3D() {
+export function Scene3D({ routes = [], exaggeration = 1.5 }: Scene3DProps) {
   const config = getDefaultSceneConfig()
   const { position } = config.camera
+
+  const bbox = useMemo(() => {
+    const tile = latLngToTile(PUERTO_VARAS_CENTER.lat, PUERTO_VARAS_CENTER.lng, ZOOM)
+    return tileToBBox(tile.x, tile.y, tile.z)
+  }, [])
 
   return (
     <Canvas
@@ -48,7 +65,16 @@ export function Scene3D() {
     >
       <SceneLighting />
       <TerrainGrid />
-      <TerrainMesh exaggeration={1} meshSize={100} />
+      <TerrainMesh exaggeration={exaggeration} meshSize={MESH_SIZE} zoom={ZOOM} />
+      {routes.map((route, i) => (
+        <Route3D
+          key={i}
+          route={route}
+          bbox={bbox}
+          meshSize={MESH_SIZE}
+          exaggeration={exaggeration}
+        />
+      ))}
       <OrbitControls
         enableDamping
         dampingFactor={0.05}

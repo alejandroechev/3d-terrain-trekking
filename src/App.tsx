@@ -1,20 +1,26 @@
 import { useState } from 'react'
 import { Scene3D } from './ui/terrain/Scene3D'
 import { GPXImporter } from './ui/routes/GPXImporter'
+import { TerrainControls } from './ui/controls/TerrainControls'
 import type { GPXRoute } from './domain/gpx/gpx-parser'
 import { calculateRouteStats } from './domain/gpx/route-stats'
 
 function App() {
   const [routes, setRoutes] = useState<GPXRoute[]>([])
+  const [exaggeration, setExaggeration] = useState(1.5)
 
   return (
     <div className="w-full h-screen relative bg-gray-900">
-      <Scene3D />
+      <Scene3D routes={routes} exaggeration={exaggeration} />
       <div className="absolute top-4 left-4 text-white bg-black/50 px-4 py-2 rounded-lg pointer-events-none">
         <h1 className="text-lg font-bold">Explorador de Terreno 3D</h1>
         <p className="text-sm text-gray-300">Puerto Varas, Chile</p>
       </div>
       <div className="absolute top-4 right-4 w-72 space-y-3 pointer-events-auto">
+        <TerrainControls
+          exaggeration={exaggeration}
+          onExaggerationChange={setExaggeration}
+        />
         <GPXImporter onRoutesLoaded={(r) => setRoutes((prev) => [...prev, ...r])} />
         {routes.map((route, i) => {
           const stats = calculateRouteStats(route.points)
