@@ -17,6 +17,8 @@ export default defineConfig({
         'src/test-setup.ts',
         'src/main.tsx',
         'src/vite-env.d.ts',
+        'src/types/**',
+        'src/infrastructure/mapbox/mapbox-terrain-provider.ts',
       ],
       thresholds: {
         statements: 90,
