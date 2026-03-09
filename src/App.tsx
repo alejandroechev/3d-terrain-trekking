@@ -1,19 +1,37 @@
-import { useCallback, useRef, useState } from 'react'
+import { useCallback, useMemo, useRef, useState } from 'react'
 import { Scene3D } from './ui/terrain/Scene3D'
 import { GPXImporter } from './ui/routes/GPXImporter'
+import { SampleRoutesLoader } from './ui/routes/SampleRoutesLoader'
+import { TrailSearch } from './ui/routes/TrailSearch'
+import { WikilocLink } from './ui/routes/WikilocLink'
 import { TerrainControls } from './ui/controls/TerrainControls'
+import { MapboxUsage } from './ui/controls/MapboxUsage'
 import { ElevationProfileChart } from './ui/analysis/ElevationProfileChart'
 import { RouteComparison } from './ui/analysis/RouteComparison'
 import type { GPXRoute } from './domain/gpx/gpx-parser'
 import { calculateRouteStats } from './domain/gpx/route-stats'
 import { calculateDifficulty } from './domain/difficulty/difficulty'
 import { generateScreenshotFilename, downloadCanvasScreenshot } from './domain/geo/screenshot'
+import { mapboxCounter } from './domain/geo/mapbox-request-counter'
+import { PUERTO_VARAS_CENTER } from './domain/geo/scene-config'
+import { latLngToTile, tileToBBox } from './domain/elevation/elevation'
 
 function App() {
   const [routes, setRoutes] = useState<GPXRoute[]>([])
   const [exaggeration, setExaggeration] = useState(1.5)
   const [showSlopeHeatmap, setShowSlopeHeatmap] = useState(false)
+  const [mapboxRequests, setMapboxRequests] = useState(0)
   const containerRef = useRef<HTMLDivElement>(null)
+
+  const bbox = useMemo(() => {
+    const tile = latLngToTile(PUERTO_VARAS_CENTER.lat, PUERTO_VARAS_CENTER.lng, 12)
+    return tileToBBox(tile.x, tile.y, tile.z)
+  }, [])
+
+  // Poll mapbox counter every time routes change or on mount
+  const updateMapboxCount = useCallback(() => {
+    setMapboxRequests(mapboxCounter.getCount())
+  }, [])
 
   const handleScreenshot = useCallback(() => {
     const canvas = containerRef.current?.querySelector('canvas')
@@ -22,6 +40,11 @@ function App() {
     }
   }, [])
 
+  const addRoutes = useCallback((r: GPXRoute[]) => {
+    setRoutes((prev) => [...prev, ...r])
+    updateMapboxCount()
+  }, [updateMapboxCount])
+
   return (
     <div ref={containerRef} className="w-full h-screen relative bg-gray-900">
       <Scene3D routes={routes} exaggeration={exaggeration} showSlopeHeatmap={showSlopeHeatmap} />
@@ -29,7 +52,8 @@ function App() {
         <h1 className="text-lg font-bold">Explorador de Terreno 3D</h1>
         <p className="text-sm text-gray-300">Puerto Varas, Chile</p>
       </div>
-      <div className="absolute top-4 right-4 w-72 space-y-3 pointer-events-auto">
+      <div className="absolute top-4 right-4 w-72 space-y-3 pointer-events-auto max-h-[calc(100vh-2rem)] overflow-y-auto">
+        <MapboxUsage count={mapboxRequests} />
         <TerrainControls
           exaggeration={exaggeration}
           onExaggerationChange={setExaggeration}
@@ -37,7 +61,10 @@ function App() {
           onToggleSlopeHeatmap={() => setShowSlopeHeatmap((v) => !v)}
           onScreenshot={handleScreenshot}
         />
-        <GPXImporter onRoutesLoaded={(r) => setRoutes((prev) => [...prev, ...r])} />
+        <GPXImporter onRoutesLoaded={addRoutes} />
+        <SampleRoutesLoader onRoutesLoaded={addRoutes} />
+        <TrailSearch bbox={bbox} onTrailsFound={addRoutes} />
+        <WikilocLink />
         {routes.map((route, i) => {
           const stats = calculateRouteStats(route.points)
           const difficulty = calculateDifficulty(route.points)

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="terrain-explorer"
+  xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Costanera Lago Llanquihue</name>
+    <desc>Paseo costero plano por la ribera del Lago Llanquihue desde Puerto Varas hacia Puerto Chico</desc>
+    <trkseg>
+      <trkpt lat="-41.3200" lon="-72.9860"><ele>75</ele></trkpt>
+      <trkpt lat="-41.3210" lon="-72.9840"><ele>74</ele></trkpt>
+      <trkpt lat="-41.3220" lon="-72.9820"><ele>76</ele></trkpt>
+      <trkpt lat="-41.3235" lon="-72.9800"><ele>75</ele></trkpt>
+      <trkpt lat="-41.3250" lon="-72.9780"><ele>77</ele></trkpt>
+      <trkpt lat="-41.3265" lon="-72.9760"><ele>76</ele></trkpt>
+      <trkpt lat="-41.3280" lon="-72.9740"><ele>78</ele></trkpt>
+      <trkpt lat="-41.3295" lon="-72.9720"><ele>77</ele></trkpt>
+      <trkpt lat="-41.3310" lon="-72.9700"><ele>79</ele></trkpt>
+      <trkpt lat="-41.3325" lon="-72.9680"><ele>78</ele></trkpt>
+      <trkpt lat="-41.3340" lon="-72.9665"><ele>80</ele></trkpt>
+      <trkpt lat="-41.3355" lon="-72.9650"><ele>79</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

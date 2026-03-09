@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="terrain-explorer"
+  xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Saltos del Petrohué</name>
+    <desc>Circuito por los senderos del Parque Nacional Vicente Pérez Rosales, pasando por los Saltos del Petrohué y miradores al Volcán Osorno</desc>
+    <trkseg>
+      <trkpt lat="-41.0690" lon="-72.3120"><ele>220</ele></trkpt>
+      <trkpt lat="-41.0695" lon="-72.3110"><ele>235</ele></trkpt>
+      <trkpt lat="-41.0700" lon="-72.3095"><ele>250</ele></trkpt>
+      <trkpt lat="-41.0708" lon="-72.3080"><ele>280</ele></trkpt>
+      <trkpt lat="-41.0715" lon="-72.3065"><ele>310</ele></trkpt>
+      <trkpt lat="-41.0722" lon="-72.3050"><ele>345</ele></trkpt>
+      <trkpt lat="-41.0728" lon="-72.3038"><ele>370</ele></trkpt>
+      <trkpt lat="-41.0735" lon="-72.3025"><ele>395</ele></trkpt>
+      <trkpt lat="-41.0740" lon="-72.3015"><ele>410</ele></trkpt>
+      <trkpt lat="-41.0745" lon="-72.3005"><ele>420</ele></trkpt>
+      <trkpt lat="-41.0750" lon="-72.2995"><ele>435</ele></trkpt>
+      <trkpt lat="-41.0755" lon="-72.2985"><ele>445</ele></trkpt>
+      <trkpt lat="-41.0760" lon="-72.2975"><ele>430</ele></trkpt>
+      <trkpt lat="-41.0765" lon="-72.2965"><ele>410</ele></trkpt>
+      <trkpt lat="-41.0770" lon="-72.2958"><ele>390</ele></trkpt>
+      <trkpt lat="-41.0775" lon="-72.2950"><ele>365</ele></trkpt>
+      <trkpt lat="-41.0778" lon="-72.2940"><ele>340</ele></trkpt>
+      <trkpt lat="-41.0775" lon="-72.2930"><ele>310</ele></trkpt>
+      <trkpt lat="-41.0770" lon="-72.2920"><ele>285</ele></trkpt>
+      <trkpt lat="-41.0762" lon="-72.2915"><ele>260</ele></trkpt>
+      <trkpt lat="-41.0755" lon="-72.2910"><ele>240</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

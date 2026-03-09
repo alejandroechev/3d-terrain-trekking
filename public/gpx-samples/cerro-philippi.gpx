@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="terrain-explorer"
+  xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>Cerro Philippi</name>
+    <desc>Sendero popular desde Puerto Varas al mirador del Cerro Philippi con vistas al Lago Llanquihue y Volcán Osorno</desc>
+    <trkseg>
+      <trkpt lat="-41.3190" lon="-72.9850"><ele>90</ele></trkpt>
+      <trkpt lat="-41.3185" lon="-72.9840"><ele>110</ele></trkpt>
+      <trkpt lat="-41.3178" lon="-72.9825"><ele>145</ele></trkpt>
+      <trkpt lat="-41.3170" lon="-72.9810"><ele>185</ele></trkpt>
+      <trkpt lat="-41.3162" lon="-72.9800"><ele>220</ele></trkpt>
+      <trkpt lat="-41.3155" lon="-72.9788"><ele>265</ele></trkpt>
+      <trkpt lat="-41.3148" lon="-72.9775"><ele>310</ele></trkpt>
+      <trkpt lat="-41.3140" lon="-72.9762"><ele>355</ele></trkpt>
+      <trkpt lat="-41.3133" lon="-72.9750"><ele>395</ele></trkpt>
+      <trkpt lat="-41.3128" lon="-72.9740"><ele>425</ele></trkpt>
+      <trkpt lat="-41.3122" lon="-72.9732"><ele>460</ele></trkpt>
+      <trkpt lat="-41.3118" lon="-72.9728"><ele>485</ele></trkpt>
+      <trkpt lat="-41.3115" lon="-72.9720"><ele>510</ele></trkpt>
+      <trkpt lat="-41.3112" lon="-72.9715"><ele>530</ele></trkpt>
+      <trkpt lat="-41.3110" lon="-72.9710"><ele>545</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

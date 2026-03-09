@@ -16,12 +16,13 @@ interface TerrainMeshProps {
 }
 
 export function TerrainMesh({ exaggeration, meshSize, zoom = 12, showSlopeHeatmap = false }: TerrainMeshProps) {
+  const apiKey = import.meta.env.VITE_MAPBOX_TOKEN as string | undefined
   const tile = useMemo(
     () => latLngToTile(PUERTO_VARAS_CENTER.lat, PUERTO_VARAS_CENTER.lng, zoom),
     [zoom]
   )
 
-  const heightmap = useTerrainData(tile)
+  const heightmap = useTerrainData(tile, apiKey)
 
   const geometry = useMemo(() => {
     if (!heightmap) return null
