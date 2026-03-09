@@ -39,4 +39,27 @@ describe('SortBar', () => {
     fireEvent.click(screen.getByText(/Distancia/))
     expect(onSort).toHaveBeenCalledWith('distance')
   })
+
+  it('shows numbered badge for multi-sort criteria', () => {
+    const criteria: SortCriteria[] = [
+      { field: 'difficulty', direction: 'asc' },
+      { field: 'length', direction: 'asc' },
+    ]
+    render(<SortBar criteria={criteria} onSort={vi.fn()} />)
+    // Both difficulty and length should be active with numbered badges
+    const diffBtn = screen.getByText(/Dificultad/)
+    const largoBtn = screen.getByText(/Largo/)
+    expect(diffBtn.className).toContain('bg-green-700')
+    expect(largoBtn.className).toContain('bg-green-600')
+  })
+
+  it('shows clear button when multiple sorts are active', () => {
+    const criteria: SortCriteria[] = [
+      { field: 'difficulty', direction: 'asc' },
+      { field: 'length', direction: 'asc' },
+    ]
+    const onSort = vi.fn()
+    render(<SortBar criteria={criteria} onSort={onSort} onClear={vi.fn()} />)
+    expect(screen.getByLabelText('Limpiar orden')).toBeInTheDocument()
+  })
 })

@@ -95,7 +95,7 @@ function App() {
         <p className="text-sm text-green-200">Región de los Lagos</p>
       </header>
       <div className="p-4 space-y-3">
-        <SortBar criteria={sortCriteria} onSort={handleSort} />
+        <SortBar criteria={sortCriteria} onSort={handleSort} onClear={() => setSortCriteria([{ field: 'name', direction: 'asc' }])} />
         <RegionFilter regions={regions} selected={regionFilter} onSelect={setRegionFilter} />
         {loading ? (
           <p className="text-gray-500 text-center mt-8">Cargando senderos…</p>
