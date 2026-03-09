@@ -1,4 +1,4 @@
-import { useCallback, useMemo, useRef, useState } from 'react'
+import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import { Scene3D } from './ui/terrain/Scene3D'
 import { GPXImporter } from './ui/routes/GPXImporter'
 import { SampleRoutesLoader } from './ui/routes/SampleRoutesLoader'
@@ -28,9 +28,12 @@ function App() {
     return tileToBBox(tile.x, tile.y, tile.z)
   }, [])
 
-  // Poll mapbox counter every time routes change or on mount
-  const updateMapboxCount = useCallback(() => {
-    setMapboxRequests(mapboxCounter.getCount())
+  // Sync mapbox counter singleton → React state periodically
+  useEffect(() => {
+    const id = setInterval(() => {
+      setMapboxRequests(mapboxCounter.getCount())
+    }, 2000)
+    return () => clearInterval(id)
   }, [])
 
   const handleScreenshot = useCallback(() => {
@@ -42,8 +45,7 @@ function App() {
 
   const addRoutes = useCallback((r: GPXRoute[]) => {
     setRoutes((prev) => [...prev, ...r])
-    updateMapboxCount()
-  }, [updateMapboxCount])
+  }, [])
 
   return (
     <div ref={containerRef} className="w-full h-screen relative bg-gray-900">
