@@ -1,8 +1,8 @@
-# 3D Terrain Trekking Explorer
+# Trekking Trails Tracker
 
 ## Description
 
-An interactive 3D terrain explorer focused on Puerto Varas / Lake District, Chile. Visualize real-world terrain, import trekking routes (GPX), analyze route difficulty from elevation data, and track visited places.
+An app to discover and tracl trekking trails near me (Puerto Varas)
 
 ## Code Implementation Flow
 
