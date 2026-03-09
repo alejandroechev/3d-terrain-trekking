@@ -2,6 +2,7 @@ import { useMemo } from 'react'
 import * as THREE from 'three'
 import { buildTerrainGeometryData } from '../../domain/elevation/terrain-geometry'
 import { elevationToColor } from '../../domain/elevation/elevation-color'
+import { computeSlopeMap } from '../../domain/elevation/slope-map'
 import { PUERTO_VARAS_CENTER } from '../../domain/geo/scene-config'
 import { latLngToTile } from '../../domain/elevation/elevation'
 import { useTerrainData } from '../../hooks/useTerrainData'
@@ -11,9 +12,10 @@ interface TerrainMeshProps {
   meshSize: number
   zoom?: number
   apiKey?: string
+  showSlopeHeatmap?: boolean
 }
 
-export function TerrainMesh({ exaggeration, meshSize, zoom = 12 }: TerrainMeshProps) {
+export function TerrainMesh({ exaggeration, meshSize, zoom = 12, showSlopeHeatmap = false }: TerrainMeshProps) {
   const tile = useMemo(
     () => latLngToTile(PUERTO_VARAS_CENTER.lat, PUERTO_VARAS_CENTER.lng, zoom),
     [zoom]
@@ -40,27 +42,44 @@ export function TerrainMesh({ exaggeration, meshSize, zoom = 12 }: TerrainMeshPr
     geo.setAttribute('uv', new THREE.BufferAttribute(data.uvs, 2))
     geo.setIndex(new THREE.BufferAttribute(data.indices, 1))
 
-    // Vertex colors based on elevation
+    // Vertex colors — elevation or slope heatmap mode
     const rows = heightmap.length
     const cols = heightmap[0].length
     const colors = new Float32Array(rows * cols * 3)
-    for (let r = 0; r < rows; r++) {
-      for (let c = 0; c < cols; c++) {
-        const idx = r * cols + c
-        const rgb = elevationToColor(
-          heightmap[r][c],
-          heightmap.minElevation,
-          heightmap.maxElevation
-        )
-        colors[idx * 3] = rgb.r
-        colors[idx * 3 + 1] = rgb.g
-        colors[idx * 3 + 2] = rgb.b
+
+    if (showSlopeHeatmap) {
+      const cellSize = meshSize / Math.max(rows, cols)
+      const slopes = computeSlopeMap(heightmap, cellSize)
+      for (let r = 0; r < rows; r++) {
+        for (let c = 0; c < cols; c++) {
+          const idx = r * cols + c
+          const slope = slopes[r][c]
+          // Green (flat) → Yellow (moderate) → Red (steep)
+          const t = Math.min(slope / 45, 1)
+          colors[idx * 3] = t
+          colors[idx * 3 + 1] = 1 - t
+          colors[idx * 3 + 2] = 0.1
+        }
+      }
+    } else {
+      for (let r = 0; r < rows; r++) {
+        for (let c = 0; c < cols; c++) {
+          const idx = r * cols + c
+          const rgb = elevationToColor(
+            heightmap[r][c],
+            heightmap.minElevation,
+            heightmap.maxElevation
+          )
+          colors[idx * 3] = rgb.r
+          colors[idx * 3 + 1] = rgb.g
+          colors[idx * 3 + 2] = rgb.b
+        }
       }
     }
     geo.setAttribute('color', new THREE.BufferAttribute(colors, 3))
     geo.computeVertexNormals()
     return geo
-  }, [heightmap, exaggeration, meshSize])
+  }, [heightmap, exaggeration, meshSize, showSlopeHeatmap])
 
   if (!geometry) return null
 

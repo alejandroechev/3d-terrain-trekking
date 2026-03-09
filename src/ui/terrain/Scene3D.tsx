@@ -13,6 +13,7 @@ const ZOOM = 12
 interface Scene3DProps {
   routes?: GPXRoute[]
   exaggeration?: number
+  showSlopeHeatmap?: boolean
 }
 
 function SceneLighting() {
@@ -45,7 +46,7 @@ function TerrainGrid() {
   )
 }
 
-export function Scene3D({ routes = [], exaggeration = 1.5 }: Scene3DProps) {
+export function Scene3D({ routes = [], exaggeration = 1.5, showSlopeHeatmap = false }: Scene3DProps) {
   const config = getDefaultSceneConfig()
   const { position } = config.camera
 
@@ -65,7 +66,7 @@ export function Scene3D({ routes = [], exaggeration = 1.5 }: Scene3DProps) {
     >
       <SceneLighting />
       <TerrainGrid />
-      <TerrainMesh exaggeration={exaggeration} meshSize={MESH_SIZE} zoom={ZOOM} />
+      <TerrainMesh exaggeration={exaggeration} meshSize={MESH_SIZE} zoom={ZOOM} showSlopeHeatmap={showSlopeHeatmap} />
       {routes.map((route, i) => (
         <Route3D
           key={i}

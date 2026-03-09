@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useCallback, useRef, useState } from 'react'
 import { Scene3D } from './ui/terrain/Scene3D'
 import { GPXImporter } from './ui/routes/GPXImporter'
 import { TerrainControls } from './ui/controls/TerrainControls'
@@ -7,14 +7,24 @@ import { RouteComparison } from './ui/analysis/RouteComparison'
 import type { GPXRoute } from './domain/gpx/gpx-parser'
 import { calculateRouteStats } from './domain/gpx/route-stats'
 import { calculateDifficulty } from './domain/difficulty/difficulty'
+import { generateScreenshotFilename, downloadCanvasScreenshot } from './domain/geo/screenshot'
 
 function App() {
   const [routes, setRoutes] = useState<GPXRoute[]>([])
   const [exaggeration, setExaggeration] = useState(1.5)
+  const [showSlopeHeatmap, setShowSlopeHeatmap] = useState(false)
+  const containerRef = useRef<HTMLDivElement>(null)
+
+  const handleScreenshot = useCallback(() => {
+    const canvas = containerRef.current?.querySelector('canvas')
+    if (canvas) {
+      downloadCanvasScreenshot(canvas, generateScreenshotFilename('terreno-3d'))
+    }
+  }, [])
 
   return (
-    <div className="w-full h-screen relative bg-gray-900">
-      <Scene3D routes={routes} exaggeration={exaggeration} />
+    <div ref={containerRef} className="w-full h-screen relative bg-gray-900">
+      <Scene3D routes={routes} exaggeration={exaggeration} showSlopeHeatmap={showSlopeHeatmap} />
       <div className="absolute top-4 left-4 text-white bg-black/50 px-4 py-2 rounded-lg pointer-events-none">
         <h1 className="text-lg font-bold">Explorador de Terreno 3D</h1>
         <p className="text-sm text-gray-300">Puerto Varas, Chile</p>
@@ -23,6 +33,9 @@ function App() {
         <TerrainControls
           exaggeration={exaggeration}
           onExaggerationChange={setExaggeration}
+          showSlopeHeatmap={showSlopeHeatmap}
+          onToggleSlopeHeatmap={() => setShowSlopeHeatmap((v) => !v)}
+          onScreenshot={handleScreenshot}
         />
         <GPXImporter onRoutesLoaded={(r) => setRoutes((prev) => [...prev, ...r])} />
         {routes.map((route, i) => {
