@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="senderos-del-sur">
+<trk><name>Mirador San Pedro</name>
+<desc>Paseo costero en Carelmapu con vistas al mar y Chiloé.</desc>
+<trkseg>
+<trkpt lat="-41.7453" lon="-73.7102"><ele>15</ele></trkpt>
+<trkpt lat="-41.7460" lon="-73.7104"><ele>16</ele></trkpt>
+<trkpt lat="-41.7452" lon="-73.7107"><ele>16</ele></trkpt>
+<trkpt lat="-41.7454" lon="-73.7110"><ele>17</ele></trkpt>
+<trkpt lat="-41.7465" lon="-73.7114"><ele>18</ele></trkpt>
+<trkpt lat="-41.7460" lon="-73.7120"><ele>19</ele></trkpt>
+<trkpt lat="-41.7456" lon="-73.7126"><ele>19</ele></trkpt>
+<trkpt lat="-41.7467" lon="-73.7132"><ele>20</ele></trkpt>
+<trkpt lat="-41.7470" lon="-73.7135"><ele>21</ele></trkpt>
+<trkpt lat="-41.7462" lon="-73.7142"><ele>21</ele></trkpt>
+<trkpt lat="-41.7464" lon="-73.7149"><ele>22</ele></trkpt>
+<trkpt lat="-41.7474" lon="-73.7155"><ele>23</ele></trkpt>
+<trkpt lat="-41.7470" lon="-73.7160"><ele>24</ele></trkpt>
+<trkpt lat="-41.7466" lon="-73.7165"><ele>24</ele></trkpt>
+<trkpt lat="-41.7477" lon="-73.7168"><ele>25</ele></trkpt>
+<trkpt lat="-41.7480" lon="-73.7173"><ele>26</ele></trkpt>
+<trkpt lat="-41.7472" lon="-73.7176"><ele>26</ele></trkpt>
+<trkpt lat="-41.7474" lon="-73.7178"><ele>27</ele></trkpt>
+<trkpt lat="-41.7484" lon="-73.7180"><ele>28</ele></trkpt>
+<trkpt lat="-41.7480" lon="-73.7182"><ele>29</ele></trkpt>
+<trkpt lat="-41.7476" lon="-73.7184"><ele>29</ele></trkpt>
+<trkpt lat="-41.7487" lon="-73.7187"><ele>30</ele></trkpt>
+</trkseg></trk></gpx>

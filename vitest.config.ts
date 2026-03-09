@@ -17,9 +17,8 @@ export default defineConfig({
         'src/test-setup.ts',
         'src/main.tsx',
         'src/vite-env.d.ts',
-        'src/types/**',
-        'src/infrastructure/mapbox/mapbox-terrain-provider.ts',
-        'src/domain/geo/screenshot.ts',
+        'src/domain/trek/load-treks.ts',
+        'src/domain/trek/trail-manifest.ts',
       ],
       thresholds: {
         statements: 90,

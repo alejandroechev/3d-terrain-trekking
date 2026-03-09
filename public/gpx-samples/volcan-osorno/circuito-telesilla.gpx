@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="senderos-del-sur">
+<trk><name>Circuito Telesilla</name>
+<desc>Circuito por el centro de esquí del Volcán Osorno.</desc>
+<trkseg>
+<trkpt lat="-41.1058" lon="-72.4953"><ele>1240</ele></trkpt>
+<trkpt lat="-41.1050" lon="-72.4954"><ele>1263</ele></trkpt>
+<trkpt lat="-41.1054" lon="-72.4957"><ele>1286</ele></trkpt>
+<trkpt lat="-41.1063" lon="-72.4960"><ele>1309</ele></trkpt>
+<trkpt lat="-41.1057" lon="-72.4964"><ele>1331</ele></trkpt>
+<trkpt lat="-41.1055" lon="-72.4969"><ele>1354</ele></trkpt>
+<trkpt lat="-41.1066" lon="-72.4975"><ele>1377</ele></trkpt>
+<trkpt lat="-41.1065" lon="-72.4982"><ele>1400</ele></trkpt>
+<trkpt lat="-41.1061" lon="-72.4995"><ele>1421</ele></trkpt>
+<trkpt lat="-41.1066" lon="-72.5000"><ele>1443</ele></trkpt>
+<trkpt lat="-41.1078" lon="-72.5004"><ele>1464</ele></trkpt>
+<trkpt lat="-41.1073" lon="-72.5007"><ele>1486</ele></trkpt>
+<trkpt lat="-41.1072" lon="-72.5010"><ele>1507</ele></trkpt>
+<trkpt lat="-41.1085" lon="-72.5014"><ele>1529</ele></trkpt>
+<trkpt lat="-41.1085" lon="-72.5018"><ele>1550</ele></trkpt>
+<trkpt lat="-41.1081" lon="-72.5026"><ele>1563</ele></trkpt>
+<trkpt lat="-41.1086" lon="-72.5033"><ele>1576</ele></trkpt>
+<trkpt lat="-41.1098" lon="-72.5039"><ele>1589</ele></trkpt>
+<trkpt lat="-41.1093" lon="-72.5045"><ele>1601</ele></trkpt>
+<trkpt lat="-41.1092" lon="-72.5050"><ele>1614</ele></trkpt>
+<trkpt lat="-41.1105" lon="-72.5054"><ele>1627</ele></trkpt>
+<trkpt lat="-41.1106" lon="-72.5058"><ele>1640</ele></trkpt>
+<trkpt lat="-41.1097" lon="-72.5052"><ele>1631</ele></trkpt>
+<trkpt lat="-41.1097" lon="-72.5056"><ele>1623</ele></trkpt>
+<trkpt lat="-41.1105" lon="-72.5060"><ele>1614</ele></trkpt>
+<trkpt lat="-41.1096" lon="-72.5066"><ele>1606</ele></trkpt>
+<trkpt lat="-41.1090" lon="-72.5072"><ele>1597</ele></trkpt>
+<trkpt lat="-41.1099" lon="-72.5078"><ele>1589</ele></trkpt>
+<trkpt lat="-41.1096" lon="-72.5085"><ele>1580</ele></trkpt>
+<trkpt lat="-41.1086" lon="-72.5075"><ele>1561</ele></trkpt>
+<trkpt lat="-41.1085" lon="-72.5071"><ele>1543</ele></trkpt>
+<trkpt lat="-41.1090" lon="-72.5069"><ele>1524</ele></trkpt>
+<trkpt lat="-41.1081" lon="-72.5067"><ele>1506</ele></trkpt>
+<trkpt lat="-41.1073" lon="-72.5066"><ele>1487</ele></trkpt>
+<trkpt lat="-41.1080" lon="-72.5065"><ele>1469</ele></trkpt>
+<trkpt lat="-41.1076" lon="-72.5065"><ele>1450</ele></trkpt>
+<trkpt lat="-41.1065" lon="-72.5053"><ele>1420</ele></trkpt>
+<trkpt lat="-41.1065" lon="-72.5037"><ele>1390</ele></trkpt>
+<trkpt lat="-41.1070" lon="-72.5020"><ele>1360</ele></trkpt>
+<trkpt lat="-41.1060" lon="-72.5002"><ele>1330</ele></trkpt>
+<trkpt lat="-41.1054" lon="-72.4984"><ele>1300</ele></trkpt>
+<trkpt lat="-41.1061" lon="-72.4966"><ele>1270</ele></trkpt>
+<trkpt lat="-41.1055" lon="-72.4949"><ele>1240</ele></trkpt>
+</trkseg></trk></gpx>

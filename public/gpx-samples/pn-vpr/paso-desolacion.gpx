@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="senderos-del-sur">
+<trk><name>Paso Desolación</name>
+<desc>Travesía clásica del parque conectando La Picada con Petrohué.</desc>
+<trkseg>
+<trkpt lat="-41.1488" lon="-72.4550"><ele>350</ele></trkpt>
+<trkpt lat="-41.1484" lon="-72.4566"><ele>393</ele></trkpt>
+<trkpt lat="-41.1492" lon="-72.4583"><ele>436</ele></trkpt>
+<trkpt lat="-41.1506" lon="-72.4599"><ele>479</ele></trkpt>
+<trkpt lat="-41.1505" lon="-72.4615"><ele>521</ele></trkpt>
+<trkpt lat="-41.1506" lon="-72.4630"><ele>564</ele></trkpt>
+<trkpt lat="-41.1522" lon="-72.4644"><ele>607</ele></trkpt>
+<trkpt lat="-41.1526" lon="-72.4658"><ele>650</ele></trkpt>
+<trkpt lat="-41.1531" lon="-72.4678"><ele>707</ele></trkpt>
+<trkpt lat="-41.1543" lon="-72.4697"><ele>764</ele></trkpt>
+<trkpt lat="-41.1563" lon="-72.4716"><ele>821</ele></trkpt>
+<trkpt lat="-41.1568" lon="-72.4735"><ele>879</ele></trkpt>
+<trkpt lat="-41.1575" lon="-72.4755"><ele>936</ele></trkpt>
+<trkpt lat="-41.1595" lon="-72.4776"><ele>993</ele></trkpt>
+<trkpt lat="-41.1606" lon="-72.4797"><ele>1050</ele></trkpt>
+<trkpt lat="-41.1607" lon="-72.4817"><ele>1057</ele></trkpt>
+<trkpt lat="-41.1613" lon="-72.4829"><ele>1064</ele></trkpt>
+<trkpt lat="-41.1630" lon="-72.4841"><ele>1071</ele></trkpt>
+<trkpt lat="-41.1632" lon="-72.4854"><ele>1079</ele></trkpt>
+<trkpt lat="-41.1633" lon="-72.4869"><ele>1086</ele></trkpt>
+<trkpt lat="-41.1649" lon="-72.4884"><ele>1093</ele></trkpt>
+<trkpt lat="-41.1657" lon="-72.4900"><ele>1100</ele></trkpt>
+<trkpt lat="-41.1658" lon="-72.4930"><ele>1064</ele></trkpt>
+<trkpt lat="-41.1663" lon="-72.4950"><ele>1029</ele></trkpt>
+<trkpt lat="-41.1679" lon="-72.4970"><ele>993</ele></trkpt>
+<trkpt lat="-41.1683" lon="-72.4989"><ele>957</ele></trkpt>
+<trkpt lat="-41.1683" lon="-72.5008"><ele>921</ele></trkpt>
+<trkpt lat="-41.1698" lon="-72.5027"><ele>886</ele></trkpt>
+<trkpt lat="-41.1708" lon="-72.5047"><ele>850</ele></trkpt>
+<trkpt lat="-41.1709" lon="-72.5077"><ele>800</ele></trkpt>
+<trkpt lat="-41.1712" lon="-72.5101"><ele>750</ele></trkpt>
+<trkpt lat="-41.1729" lon="-72.5123"><ele>700</ele></trkpt>
+<trkpt lat="-41.1734" lon="-72.5145"><ele>650</ele></trkpt>
+<trkpt lat="-41.1733" lon="-72.5165"><ele>600</ele></trkpt>
+<trkpt lat="-41.1747" lon="-72.5185"><ele>550</ele></trkpt>
+<trkpt lat="-41.1758" lon="-72.5204"><ele>500</ele></trkpt>
+<trkpt lat="-41.1760" lon="-72.5220"><ele>469</ele></trkpt>
+<trkpt lat="-41.1762" lon="-72.5243"><ele>437</ele></trkpt>
+<trkpt lat="-41.1778" lon="-72.5267"><ele>406</ele></trkpt>
+<trkpt lat="-41.1785" lon="-72.5291"><ele>374</ele></trkpt>
+<trkpt lat="-41.1783" lon="-72.5314"><ele>343</ele></trkpt>
+<trkpt lat="-41.1796" lon="-72.5337"><ele>311</ele></trkpt>
+<trkpt lat="-41.1809" lon="-72.5359"><ele>280</ele></trkpt>
+</trkseg></trk></gpx>

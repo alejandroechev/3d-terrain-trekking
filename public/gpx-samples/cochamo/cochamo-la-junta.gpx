@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="senderos-del-sur">
+<trk><name>Cochamó – La Junta</name>
+<desc>Sendero principal del Valle de Cochamó, el Yosemite de Chile.</desc>
+<trkseg>
+<trkpt lat="-41.4906" lon="-72.3097"><ele>50</ele></trkpt>
+<trkpt lat="-41.4914" lon="-72.3111"><ele>64</ele></trkpt>
+<trkpt lat="-41.4912" lon="-72.3126"><ele>79</ele></trkpt>
+<trkpt lat="-41.4924" lon="-72.3142"><ele>93</ele></trkpt>
+<trkpt lat="-41.4937" lon="-72.3159"><ele>107</ele></trkpt>
+<trkpt lat="-41.4936" lon="-72.3176"><ele>121</ele></trkpt>
+<trkpt lat="-41.4942" lon="-72.3192"><ele>136</ele></trkpt>
+<trkpt lat="-41.4958" lon="-72.3208"><ele>150</ele></trkpt>
+<trkpt lat="-41.4968" lon="-72.3223"><ele>171</ele></trkpt>
+<trkpt lat="-41.4968" lon="-72.3242"><ele>193</ele></trkpt>
+<trkpt lat="-41.4981" lon="-72.3262"><ele>214</ele></trkpt>
+<trkpt lat="-41.4999" lon="-72.3283"><ele>236</ele></trkpt>
+<trkpt lat="-41.5001" lon="-72.3305"><ele>257</ele></trkpt>
+<trkpt lat="-41.5008" lon="-72.3327"><ele>279</ele></trkpt>
+<trkpt lat="-41.5028" lon="-72.3351"><ele>300</ele></trkpt>
+<trkpt lat="-41.5040" lon="-72.3375"><ele>321</ele></trkpt>
+<trkpt lat="-41.5041" lon="-72.3399"><ele>343</ele></trkpt>
+<trkpt lat="-41.5055" lon="-72.3422"><ele>364</ele></trkpt>
+<trkpt lat="-41.5075" lon="-72.3445"><ele>386</ele></trkpt>
+<trkpt lat="-41.5079" lon="-72.3466"><ele>407</ele></trkpt>
+<trkpt lat="-41.5086" lon="-72.3487"><ele>429</ele></trkpt>
+<trkpt lat="-41.5107" lon="-72.3506"><ele>450</ele></trkpt>
+<trkpt lat="-41.5120" lon="-72.3519"><ele>436</ele></trkpt>
+<trkpt lat="-41.5122" lon="-72.3542"><ele>421</ele></trkpt>
+<trkpt lat="-41.5134" lon="-72.3565"><ele>407</ele></trkpt>
+<trkpt lat="-41.5154" lon="-72.3589"><ele>393</ele></trkpt>
+<trkpt lat="-41.5160" lon="-72.3613"><ele>379</ele></trkpt>
+<trkpt lat="-41.5166" lon="-72.3636"><ele>364</ele></trkpt>
+<trkpt lat="-41.5187" lon="-72.3659"><ele>350</ele></trkpt>
+<trkpt lat="-41.5199" lon="-72.3671"><ele>340</ele></trkpt>
+<trkpt lat="-41.5200" lon="-72.3691"><ele>330</ele></trkpt>
+<trkpt lat="-41.5209" lon="-72.3711"><ele>320</ele></trkpt>
+<trkpt lat="-41.5228" lon="-72.3733"><ele>310</ele></trkpt>
+<trkpt lat="-41.5234" lon="-72.3756"><ele>300</ele></trkpt>
+<trkpt lat="-41.5237" lon="-72.3779"><ele>290</ele></trkpt>
+<trkpt lat="-41.5256" lon="-72.3803"><ele>280</ele></trkpt>
+<trkpt lat="-41.5266" lon="-72.3822"><ele>276</ele></trkpt>
+<trkpt lat="-41.5265" lon="-72.3834"><ele>271</ele></trkpt>
+<trkpt lat="-41.5270" lon="-72.3846"><ele>267</ele></trkpt>
+<trkpt lat="-41.5286" lon="-72.3858"><ele>263</ele></trkpt>
+<trkpt lat="-41.5291" lon="-72.3870"><ele>259</ele></trkpt>
+<trkpt lat="-41.5290" lon="-72.3883"><ele>254</ele></trkpt>
+<trkpt lat="-41.5305" lon="-72.3897"><ele>250</ele></trkpt>
+</trkseg></trk></gpx>

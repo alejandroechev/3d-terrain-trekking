@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="senderos-del-sur">
+<trk><name>Cerro Año Nuevo</name>
+<desc>Ascenso al filo de cumbre con vistas panorámicas del Puelo.</desc>
+<trkseg>
+<trkpt lat="-41.6158" lon="-72.1397"><ele>100</ele></trkpt>
+<trkpt lat="-41.6159" lon="-72.1405"><ele>129</ele></trkpt>
+<trkpt lat="-41.6156" lon="-72.1413"><ele>157</ele></trkpt>
+<trkpt lat="-41.6168" lon="-72.1422"><ele>186</ele></trkpt>
+<trkpt lat="-41.6175" lon="-72.1432"><ele>214</ele></trkpt>
+<trkpt lat="-41.6170" lon="-72.1442"><ele>243</ele></trkpt>
+<trkpt lat="-41.6177" lon="-72.1451"><ele>271</ele></trkpt>
+<trkpt lat="-41.6189" lon="-72.1459"><ele>300</ele></trkpt>
+<trkpt lat="-41.6190" lon="-72.1459"><ele>336</ele></trkpt>
+<trkpt lat="-41.6186" lon="-72.1464"><ele>371</ele></trkpt>
+<trkpt lat="-41.6197" lon="-72.1469"><ele>407</ele></trkpt>
+<trkpt lat="-41.6205" lon="-72.1476"><ele>443</ele></trkpt>
+<trkpt lat="-41.6200" lon="-72.1483"><ele>479</ele></trkpt>
+<trkpt lat="-41.6206" lon="-72.1491"><ele>514</ele></trkpt>
+<trkpt lat="-41.6219" lon="-72.1500"><ele>550</ele></trkpt>
+<trkpt lat="-41.6220" lon="-72.1505"><ele>579</ele></trkpt>
+<trkpt lat="-41.6216" lon="-72.1507"><ele>607</ele></trkpt>
+<trkpt lat="-41.6227" lon="-72.1510"><ele>636</ele></trkpt>
+<trkpt lat="-41.6235" lon="-72.1514"><ele>664</ele></trkpt>
+<trkpt lat="-41.6230" lon="-72.1519"><ele>693</ele></trkpt>
+<trkpt lat="-41.6236" lon="-72.1525"><ele>721</ele></trkpt>
+<trkpt lat="-41.6249" lon="-72.1531"><ele>750</ele></trkpt>
+<trkpt lat="-41.6249" lon="-72.1534"><ele>769</ele></trkpt>
+<trkpt lat="-41.6243" lon="-72.1536"><ele>789</ele></trkpt>
+<trkpt lat="-41.6252" lon="-72.1540"><ele>808</ele></trkpt>
+<trkpt lat="-41.6260" lon="-72.1544"><ele>827</ele></trkpt>
+<trkpt lat="-41.6253" lon="-72.1550"><ele>846</ele></trkpt>
+<trkpt lat="-41.6257" lon="-72.1556"><ele>866</ele></trkpt>
+<trkpt lat="-41.6269" lon="-72.1563"><ele>885</ele></trkpt>
+</trkseg></trk></gpx>

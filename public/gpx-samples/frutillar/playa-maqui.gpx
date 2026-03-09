@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="senderos-del-sur">
+<trk><name>Playa Maqui</name>
+<desc>Caminata a la playa Maqui con vistas al lago Llanquihue.</desc>
+<trkseg>
+<trkpt lat="-41.1299" lon="-73.0600"><ele>75</ele></trkpt>
+<trkpt lat="-41.1301" lon="-73.0603"><ele>75</ele></trkpt>
+<trkpt lat="-41.1312" lon="-73.0606"><ele>74</ele></trkpt>
+<trkpt lat="-41.1307" lon="-73.0610"><ele>74</ele></trkpt>
+<trkpt lat="-41.1303" lon="-73.0615"><ele>73</ele></trkpt>
+<trkpt lat="-41.1314" lon="-73.0621"><ele>73</ele></trkpt>
+<trkpt lat="-41.1315" lon="-73.0628"><ele>72</ele></trkpt>
+<trkpt lat="-41.1307" lon="-73.0634"><ele>72</ele></trkpt>
+<trkpt lat="-41.1311" lon="-73.0637"><ele>71</ele></trkpt>
+<trkpt lat="-41.1322" lon="-73.0644"><ele>71</ele></trkpt>
+<trkpt lat="-41.1317" lon="-73.0650"><ele>70</ele></trkpt>
+<trkpt lat="-41.1313" lon="-73.0656"><ele>70</ele></trkpt>
+<trkpt lat="-41.1324" lon="-73.0660"><ele>69</ele></trkpt>
+<trkpt lat="-41.1325" lon="-73.0664"><ele>69</ele></trkpt>
+<trkpt lat="-41.1317" lon="-73.0667"><ele>68</ele></trkpt>
+<trkpt lat="-41.1321" lon="-73.0672"><ele>68</ele></trkpt>
+<trkpt lat="-41.1331" lon="-73.0675"><ele>67</ele></trkpt>
+<trkpt lat="-41.1328" lon="-73.0676"><ele>67</ele></trkpt>
+<trkpt lat="-41.1323" lon="-73.0678"><ele>66</ele></trkpt>
+<trkpt lat="-41.1333" lon="-73.0680"><ele>66</ele></trkpt>
+<trkpt lat="-41.1335" lon="-73.0683"><ele>65</ele></trkpt>
+<trkpt lat="-41.1327" lon="-73.0687"><ele>65</ele></trkpt>
+<trkpt lat="-41.1331" lon="-73.0700"><ele>65</ele></trkpt>
+<trkpt lat="-41.1341" lon="-73.0701"><ele>64</ele></trkpt>
+<trkpt lat="-41.1338" lon="-73.0702"><ele>64</ele></trkpt>
+<trkpt lat="-41.1333" lon="-73.0702"><ele>63</ele></trkpt>
+<trkpt lat="-41.1343" lon="-73.0703"><ele>63</ele></trkpt>
+<trkpt lat="-41.1345" lon="-73.0704"><ele>62</ele></trkpt>
+<trkpt lat="-41.1337" lon="-73.0707"><ele>62</ele></trkpt>
+</trkseg></trk></gpx>

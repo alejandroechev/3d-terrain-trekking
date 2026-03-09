@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="senderos-del-sur">
+<trk><name>Salto Las Cascadas</name>
+<desc>Sendero fácil por bosque nativo hasta cascada de 50m.</desc>
+<trkseg>
+<trkpt lat="-41.0455" lon="-72.7797"><ele>120</ele></trkpt>
+<trkpt lat="-41.0459" lon="-72.7803"><ele>123</ele></trkpt>
+<trkpt lat="-41.0451" lon="-72.7809"><ele>126</ele></trkpt>
+<trkpt lat="-41.0456" lon="-72.7816"><ele>129</ele></trkpt>
+<trkpt lat="-41.0465" lon="-72.7823"><ele>131</ele></trkpt>
+<trkpt lat="-41.0458" lon="-72.7829"><ele>134</ele></trkpt>
+<trkpt lat="-41.0457" lon="-72.7834"><ele>137</ele></trkpt>
+<trkpt lat="-41.0468" lon="-72.7839"><ele>140</ele></trkpt>
+<trkpt lat="-41.0470" lon="-72.7843"><ele>144</ele></trkpt>
+<trkpt lat="-41.0462" lon="-72.7847"><ele>149</ele></trkpt>
+<trkpt lat="-41.0468" lon="-72.7850"><ele>153</ele></trkpt>
+<trkpt lat="-41.0478" lon="-72.7853"><ele>157</ele></trkpt>
+<trkpt lat="-41.0472" lon="-72.7855"><ele>161</ele></trkpt>
+<trkpt lat="-41.0471" lon="-72.7857"><ele>166</ele></trkpt>
+<trkpt lat="-41.0483" lon="-72.7859"><ele>170</ele></trkpt>
+<trkpt lat="-41.0475" lon="-72.7873"><ele>174</ele></trkpt>
+<trkpt lat="-41.0487" lon="-72.7877"><ele>179</ele></trkpt>
+<trkpt lat="-41.0486" lon="-72.7880"><ele>183</ele></trkpt>
+<trkpt lat="-41.0481" lon="-72.7882"><ele>187</ele></trkpt>
+<trkpt lat="-41.0491" lon="-72.7884"><ele>191</ele></trkpt>
+<trkpt lat="-41.0496" lon="-72.7886"><ele>196</ele></trkpt>
+<trkpt lat="-41.0488" lon="-72.7888"><ele>200</ele></trkpt>
+<trkpt lat="-41.0499" lon="-72.7894"><ele>204</ele></trkpt>
+<trkpt lat="-41.0491" lon="-72.7899"><ele>209</ele></trkpt>
+<trkpt lat="-41.0495" lon="-72.7904"><ele>213</ele></trkpt>
+<trkpt lat="-41.0505" lon="-72.7909"><ele>217</ele></trkpt>
+<trkpt lat="-41.0498" lon="-72.7913"><ele>221</ele></trkpt>
+<trkpt lat="-41.0497" lon="-72.7916"><ele>226</ele></trkpt>
+<trkpt lat="-41.0508" lon="-72.7918"><ele>230</ele></trkpt>
+</trkseg></trk></gpx>

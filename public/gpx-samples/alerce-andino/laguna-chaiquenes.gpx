@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="senderos-del-sur">
+<trk><name>Laguna Chaiquenes</name>
+<desc>Ruta larga por bosque profundo hasta lagunas Chaiquenes y Triángulo.</desc>
+<trkseg>
+<trkpt lat="-41.5698" lon="-72.5599"><ele>100</ele></trkpt>
+<trkpt lat="-41.5709" lon="-72.5612"><ele>114</ele></trkpt>
+<trkpt lat="-41.5723" lon="-72.5626"><ele>129</ele></trkpt>
+<trkpt lat="-41.5722" lon="-72.5640"><ele>143</ele></trkpt>
+<trkpt lat="-41.5727" lon="-72.5656"><ele>157</ele></trkpt>
+<trkpt lat="-41.5744" lon="-72.5672"><ele>171</ele></trkpt>
+<trkpt lat="-41.5747" lon="-72.5689"><ele>186</ele></trkpt>
+<trkpt lat="-41.5747" lon="-72.5705"><ele>200</ele></trkpt>
+<trkpt lat="-41.5761" lon="-72.5716"><ele>221</ele></trkpt>
+<trkpt lat="-41.5779" lon="-72.5735"><ele>243</ele></trkpt>
+<trkpt lat="-41.5781" lon="-72.5755"><ele>264</ele></trkpt>
+<trkpt lat="-41.5788" lon="-72.5776"><ele>286</ele></trkpt>
+<trkpt lat="-41.5808" lon="-72.5797"><ele>307</ele></trkpt>
+<trkpt lat="-41.5815" lon="-72.5818"><ele>329</ele></trkpt>
+<trkpt lat="-41.5817" lon="-72.5838"><ele>350</ele></trkpt>
+<trkpt lat="-41.5831" lon="-72.5849"><ele>371</ele></trkpt>
+<trkpt lat="-41.5852" lon="-72.5871"><ele>393</ele></trkpt>
+<trkpt lat="-41.5857" lon="-72.5894"><ele>414</ele></trkpt>
+<trkpt lat="-41.5863" lon="-72.5916"><ele>436</ele></trkpt>
+<trkpt lat="-41.5884" lon="-72.5938"><ele>457</ele></trkpt>
+<trkpt lat="-41.5894" lon="-72.5959"><ele>479</ele></trkpt>
+<trkpt lat="-41.5897" lon="-72.5979"><ele>500</ele></trkpt>
+<trkpt lat="-41.5911" lon="-72.5992"><ele>514</ele></trkpt>
+<trkpt lat="-41.5931" lon="-72.6013"><ele>529</ele></trkpt>
+<trkpt lat="-41.5938" lon="-72.6033"><ele>543</ele></trkpt>
+<trkpt lat="-41.5943" lon="-72.6053"><ele>557</ele></trkpt>
+<trkpt lat="-41.5963" lon="-72.6072"><ele>571</ele></trkpt>
+<trkpt lat="-41.5975" lon="-72.6089"><ele>586</ele></trkpt>
+<trkpt lat="-41.5977" lon="-72.6106"><ele>600</ele></trkpt>
+<trkpt lat="-41.5989" lon="-72.6114"><ele>611</ele></trkpt>
+<trkpt lat="-41.6008" lon="-72.6133"><ele>623</ele></trkpt>
+<trkpt lat="-41.6014" lon="-72.6152"><ele>634</ele></trkpt>
+<trkpt lat="-41.6017" lon="-72.6171"><ele>646</ele></trkpt>
+<trkpt lat="-41.6035" lon="-72.6191"><ele>657</ele></trkpt>
+<trkpt lat="-41.6047" lon="-72.6210"><ele>669</ele></trkpt>
+<trkpt lat="-41.6048" lon="-72.6229"><ele>680</ele></trkpt>
+<trkpt lat="-41.6058" lon="-72.6235"><ele>671</ele></trkpt>
+<trkpt lat="-41.6078" lon="-72.6247"><ele>663</ele></trkpt>
+<trkpt lat="-41.6085" lon="-72.6260"><ele>654</ele></trkpt>
+<trkpt lat="-41.6087" lon="-72.6274"><ele>646</ele></trkpt>
+<trkpt lat="-41.6105" lon="-72.6289"><ele>637</ele></trkpt>
+<trkpt lat="-41.6118" lon="-72.6305"><ele>629</ele></trkpt>
+<trkpt lat="-41.6118" lon="-72.6321"><ele>620</ele></trkpt>
+</trkseg></trk></gpx>

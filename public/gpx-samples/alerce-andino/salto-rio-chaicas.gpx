@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="senderos-del-sur">
+<trk><name>Salto Río Chaicas</name>
+<desc>Sendero por sector Chaicas hasta cascada en bosque nativo.</desc>
+<trkseg>
+<trkpt lat="-41.5798" lon="-72.5697"><ele>80</ele></trkpt>
+<trkpt lat="-41.5805" lon="-72.5704"><ele>90</ele></trkpt>
+<trkpt lat="-41.5818" lon="-72.5712"><ele>100</ele></trkpt>
+<trkpt lat="-41.5814" lon="-72.5720"><ele>110</ele></trkpt>
+<trkpt lat="-41.5815" lon="-72.5730"><ele>120</ele></trkpt>
+<trkpt lat="-41.5829" lon="-72.5739"><ele>130</ele></trkpt>
+<trkpt lat="-41.5831" lon="-72.5749"><ele>140</ele></trkpt>
+<trkpt lat="-41.5827" lon="-72.5758"><ele>150</ele></trkpt>
+<trkpt lat="-41.5836" lon="-72.5768"><ele>164</ele></trkpt>
+<trkpt lat="-41.5850" lon="-72.5779"><ele>179</ele></trkpt>
+<trkpt lat="-41.5849" lon="-72.5789"><ele>193</ele></trkpt>
+<trkpt lat="-41.5851" lon="-72.5798"><ele>207</ele></trkpt>
+<trkpt lat="-41.5866" lon="-72.5806"><ele>221</ele></trkpt>
+<trkpt lat="-41.5870" lon="-72.5814"><ele>236</ele></trkpt>
+<trkpt lat="-41.5867" lon="-72.5821"><ele>250</ele></trkpt>
+<trkpt lat="-41.5877" lon="-72.5840"><ele>269</ele></trkpt>
+<trkpt lat="-41.5893" lon="-72.5852"><ele>287</ele></trkpt>
+<trkpt lat="-41.5894" lon="-72.5862"><ele>306</ele></trkpt>
+<trkpt lat="-41.5896" lon="-72.5872"><ele>324</ele></trkpt>
+<trkpt lat="-41.5913" lon="-72.5881"><ele>343</ele></trkpt>
+<trkpt lat="-41.5919" lon="-72.5890"><ele>361</ele></trkpt>
+<trkpt lat="-41.5917" lon="-72.5899"><ele>380</ele></trkpt>
+<trkpt lat="-41.5925" lon="-72.5909"><ele>390</ele></trkpt>
+<trkpt lat="-41.5940" lon="-72.5921"><ele>400</ele></trkpt>
+<trkpt lat="-41.5940" lon="-72.5931"><ele>410</ele></trkpt>
+<trkpt lat="-41.5940" lon="-72.5942"><ele>420</ele></trkpt>
+<trkpt lat="-41.5955" lon="-72.5952"><ele>430</ele></trkpt>
+<trkpt lat="-41.5961" lon="-72.5960"><ele>440</ele></trkpt>
+<trkpt lat="-41.5957" lon="-72.5968"><ele>450</ele></trkpt>
+<trkpt lat="-41.5965" lon="-72.5977"><ele>460</ele></trkpt>
+<trkpt lat="-41.5980" lon="-72.5984"><ele>470</ele></trkpt>
+<trkpt lat="-41.5980" lon="-72.5990"><ele>480</ele></trkpt>
+<trkpt lat="-41.5980" lon="-72.5996"><ele>490</ele></trkpt>
+<trkpt lat="-41.5995" lon="-72.6002"><ele>500</ele></trkpt>
+<trkpt lat="-41.6001" lon="-72.6009"><ele>510</ele></trkpt>
+<trkpt lat="-41.5997" lon="-72.6017"><ele>520</ele></trkpt>
+</trkseg></trk></gpx>

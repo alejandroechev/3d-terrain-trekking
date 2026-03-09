@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="senderos-del-sur">
+<trk><name>Volcán Calbuco</name>
+<desc>Ascenso exigente al volcán activo (2015m).</desc>
+<trkseg>
+<trkpt lat="-41.3300" lon="-72.5997"><ele>200</ele></trkpt>
+<trkpt lat="-41.3316" lon="-72.6012"><ele>243</ele></trkpt>
+<trkpt lat="-41.3317" lon="-72.6029"><ele>286</ele></trkpt>
+<trkpt lat="-41.3319" lon="-72.6045"><ele>329</ele></trkpt>
+<trkpt lat="-41.3336" lon="-72.6062"><ele>371</ele></trkpt>
+<trkpt lat="-41.3342" lon="-72.6078"><ele>414</ele></trkpt>
+<trkpt lat="-41.3340" lon="-72.6094"><ele>457</ele></trkpt>
+<trkpt lat="-41.3354" lon="-72.6109"><ele>500</ele></trkpt>
+<trkpt lat="-41.3366" lon="-72.6115"><ele>550</ele></trkpt>
+<trkpt lat="-41.3367" lon="-72.6132"><ele>600</ele></trkpt>
+<trkpt lat="-41.3369" lon="-72.6148"><ele>650</ele></trkpt>
+<trkpt lat="-41.3385" lon="-72.6165"><ele>700</ele></trkpt>
+<trkpt lat="-41.3392" lon="-72.6180"><ele>750</ele></trkpt>
+<trkpt lat="-41.3390" lon="-72.6195"><ele>800</ele></trkpt>
+<trkpt lat="-41.3403" lon="-72.6208"><ele>850</ele></trkpt>
+<trkpt lat="-41.3411" lon="-72.6219"><ele>886</ele></trkpt>
+<trkpt lat="-41.3409" lon="-72.6229"><ele>921</ele></trkpt>
+<trkpt lat="-41.3406" lon="-72.6238"><ele>957</ele></trkpt>
+<trkpt lat="-41.3417" lon="-72.6247"><ele>993</ele></trkpt>
+<trkpt lat="-41.3421" lon="-72.6256"><ele>1029</ele></trkpt>
+<trkpt lat="-41.3415" lon="-72.6266"><ele>1064</ele></trkpt>
+<trkpt lat="-41.3422" lon="-72.6277"><ele>1100</ele></trkpt>
+<trkpt lat="-41.3433" lon="-72.6297"><ele>1143</ele></trkpt>
+<trkpt lat="-41.3433" lon="-72.6304"><ele>1186</ele></trkpt>
+<trkpt lat="-41.3430" lon="-72.6312"><ele>1229</ele></trkpt>
+<trkpt lat="-41.3443" lon="-72.6320"><ele>1271</ele></trkpt>
+<trkpt lat="-41.3449" lon="-72.6328"><ele>1314</ele></trkpt>
+<trkpt lat="-41.3443" lon="-72.6337"><ele>1357</ele></trkpt>
+<trkpt lat="-41.3452" lon="-72.6347"><ele>1400</ele></trkpt>
+<trkpt lat="-41.3461" lon="-72.6364"><ele>1443</ele></trkpt>
+<trkpt lat="-41.3460" lon="-72.6373"><ele>1486</ele></trkpt>
+<trkpt lat="-41.3456" lon="-72.6380"><ele>1529</ele></trkpt>
+<trkpt lat="-41.3467" lon="-72.6387"><ele>1571</ele></trkpt>
+<trkpt lat="-41.3472" lon="-72.6393"><ele>1614</ele></trkpt>
+<trkpt lat="-41.3465" lon="-72.6398"><ele>1657</ele></trkpt>
+<trkpt lat="-41.3472" lon="-72.6403"><ele>1700</ele></trkpt>
+<trkpt lat="-41.3481" lon="-72.6411"><ele>1736</ele></trkpt>
+<trkpt lat="-41.3480" lon="-72.6415"><ele>1771</ele></trkpt>
+<trkpt lat="-41.3476" lon="-72.6420"><ele>1807</ele></trkpt>
+<trkpt lat="-41.3486" lon="-72.6426"><ele>1843</ele></trkpt>
+<trkpt lat="-41.3492" lon="-72.6433"><ele>1879</ele></trkpt>
+<trkpt lat="-41.3485" lon="-72.6440"><ele>1914</ele></trkpt>
+<trkpt lat="-41.3491" lon="-72.6449"><ele>1950</ele></trkpt>
+<trkpt lat="-41.3499" lon="-72.6463"><ele>1959</ele></trkpt>
+<trkpt lat="-41.3498" lon="-72.6468"><ele>1969</ele></trkpt>
+<trkpt lat="-41.3491" lon="-72.6471"><ele>1978</ele></trkpt>
+<trkpt lat="-41.3500" lon="-72.6474"><ele>1987</ele></trkpt>
+<trkpt lat="-41.3505" lon="-72.6477"><ele>1996</ele></trkpt>
+<trkpt lat="-41.3497" lon="-72.6478"><ele>2006</ele></trkpt>
+<trkpt lat="-41.3501" lon="-72.6480"><ele>2015</ele></trkpt>
+</trkseg></trk></gpx>

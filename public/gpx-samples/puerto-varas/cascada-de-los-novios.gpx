@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="senderos-del-sur">
+<trk><name>Cascada de los Novios</name>
+<desc>Caminata corta a una cascada escondida en el bosque nativo, perfecta para familias. Cerca del centro de Puerto Varas.</desc>
+<trkseg>
+<trkpt lat="-41.3150" lon="-72.9920"><ele>85</ele></trkpt>
+<trkpt lat="-41.3145" lon="-72.9935"><ele>95</ele></trkpt>
+<trkpt lat="-41.3138" lon="-72.9948"><ele>110</ele></trkpt>
+<trkpt lat="-41.3130" lon="-72.9955"><ele>130</ele></trkpt>
+<trkpt lat="-41.3122" lon="-72.9960"><ele>155</ele></trkpt>
+<trkpt lat="-41.3115" lon="-72.9968"><ele>175</ele></trkpt>
+<trkpt lat="-41.3108" lon="-72.9972"><ele>195</ele></trkpt>
+<trkpt lat="-41.3100" lon="-72.9978"><ele>220</ele></trkpt>
+<trkpt lat="-41.3095" lon="-72.9985"><ele>240</ele></trkpt>
+<trkpt lat="-41.3090" lon="-72.9990"><ele>255</ele></trkpt>
+</trkseg></trk></gpx>

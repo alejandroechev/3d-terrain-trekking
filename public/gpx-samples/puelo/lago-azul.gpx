@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="senderos-del-sur">
+<trk><name>Lago Azul</name>
+<desc>Caminata al Lago Azul de aguas turquesas.</desc>
+<trkseg>
+<trkpt lat="-41.6207" lon="-72.1502"><ele>80</ele></trkpt>
+<trkpt lat="-41.6213" lon="-72.1514"><ele>86</ele></trkpt>
+<trkpt lat="-41.6211" lon="-72.1526"><ele>91</ele></trkpt>
+<trkpt lat="-41.6225" lon="-72.1540"><ele>97</ele></trkpt>
+<trkpt lat="-41.6237" lon="-72.1554"><ele>103</ele></trkpt>
+<trkpt lat="-41.6235" lon="-72.1570"><ele>109</ele></trkpt>
+<trkpt lat="-41.6243" lon="-72.1586"><ele>114</ele></trkpt>
+<trkpt lat="-41.6259" lon="-72.1603"><ele>120</ele></trkpt>
+<trkpt lat="-41.6267" lon="-72.1629"><ele>129</ele></trkpt>
+<trkpt lat="-41.6267" lon="-72.1648"><ele>137</ele></trkpt>
+<trkpt lat="-41.6283" lon="-72.1667"><ele>146</ele></trkpt>
+<trkpt lat="-41.6299" lon="-72.1686"><ele>154</ele></trkpt>
+<trkpt lat="-41.6300" lon="-72.1705"><ele>163</ele></trkpt>
+<trkpt lat="-41.6309" lon="-72.1726"><ele>171</ele></trkpt>
+<trkpt lat="-41.6329" lon="-72.1747"><ele>180</ele></trkpt>
+<trkpt lat="-41.6339" lon="-72.1769"><ele>190</ele></trkpt>
+<trkpt lat="-41.6341" lon="-72.1792"><ele>200</ele></trkpt>
+<trkpt lat="-41.6356" lon="-72.1816"><ele>210</ele></trkpt>
+<trkpt lat="-41.6375" lon="-72.1840"><ele>220</ele></trkpt>
+<trkpt lat="-41.6378" lon="-72.1864"><ele>230</ele></trkpt>
+<trkpt lat="-41.6387" lon="-72.1887"><ele>240</ele></trkpt>
+<trkpt lat="-41.6408" lon="-72.1909"><ele>250</ele></trkpt>
+<trkpt lat="-41.6420" lon="-72.1920"><ele>257</ele></trkpt>
+<trkpt lat="-41.6421" lon="-72.1940"><ele>264</ele></trkpt>
+<trkpt lat="-41.6435" lon="-72.1961"><ele>271</ele></trkpt>
+<trkpt lat="-41.6455" lon="-72.1984"><ele>279</ele></trkpt>
+<trkpt lat="-41.6459" lon="-72.2007"><ele>286</ele></trkpt>
+<trkpt lat="-41.6466" lon="-72.2030"><ele>293</ele></trkpt>
+<trkpt lat="-41.6488" lon="-72.2054"><ele>300</ele></trkpt>
+<trkpt lat="-41.6497" lon="-72.2061"><ele>297</ele></trkpt>
+<trkpt lat="-41.6496" lon="-72.2076"><ele>294</ele></trkpt>
+<trkpt lat="-41.6506" lon="-72.2092"><ele>291</ele></trkpt>
+<trkpt lat="-41.6523" lon="-72.2108"><ele>289</ele></trkpt>
+<trkpt lat="-41.6525" lon="-72.2125"><ele>286</ele></trkpt>
+<trkpt lat="-41.6529" lon="-72.2141"><ele>283</ele></trkpt>
+<trkpt lat="-41.6547" lon="-72.2158"><ele>280</ele></trkpt>
+</trkseg></trk></gpx>

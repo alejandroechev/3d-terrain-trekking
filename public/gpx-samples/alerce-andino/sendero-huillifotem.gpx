@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="senderos-del-sur">
+<trk><name>Sendero Huillifotem</name>
+<desc>Sendero corto y familiar para observación de aves.</desc>
+<trkseg>
+<trkpt lat="-41.6098" lon="-72.5505"><ele>90</ele></trkpt>
+<trkpt lat="-41.6102" lon="-72.5510"><ele>91</ele></trkpt>
+<trkpt lat="-41.6112" lon="-72.5514"><ele>93</ele></trkpt>
+<trkpt lat="-41.6106" lon="-72.5518"><ele>94</ele></trkpt>
+<trkpt lat="-41.6104" lon="-72.5520"><ele>96</ele></trkpt>
+<trkpt lat="-41.6115" lon="-72.5521"><ele>97</ele></trkpt>
+<trkpt lat="-41.6114" lon="-72.5522"><ele>99</ele></trkpt>
+<trkpt lat="-41.6107" lon="-72.5522"><ele>100</ele></trkpt>
+<trkpt lat="-41.6113" lon="-72.5531"><ele>102</ele></trkpt>
+<trkpt lat="-41.6123" lon="-72.5535"><ele>104</ele></trkpt>
+<trkpt lat="-41.6118" lon="-72.5537"><ele>106</ele></trkpt>
+<trkpt lat="-41.6116" lon="-72.5539"><ele>109</ele></trkpt>
+<trkpt lat="-41.6128" lon="-72.5541"><ele>111</ele></trkpt>
+<trkpt lat="-41.6128" lon="-72.5541"><ele>113</ele></trkpt>
+<trkpt lat="-41.6122" lon="-72.5541"><ele>115</ele></trkpt>
+<trkpt lat="-41.6133" lon="-72.5541"><ele>116</ele></trkpt>
+<trkpt lat="-41.6126" lon="-72.5545"><ele>118</ele></trkpt>
+<trkpt lat="-41.6136" lon="-72.5550"><ele>119</ele></trkpt>
+<trkpt lat="-41.6142" lon="-72.5556"><ele>121</ele></trkpt>
+<trkpt lat="-41.6134" lon="-72.5561"><ele>122</ele></trkpt>
+<trkpt lat="-41.6138" lon="-72.5565"><ele>124</ele></trkpt>
+<trkpt lat="-41.6149" lon="-72.5569"><ele>125</ele></trkpt>
+<trkpt lat="-41.6142" lon="-72.5565"><ele>126</ele></trkpt>
+<trkpt lat="-41.6152" lon="-72.5566"><ele>126</ele></trkpt>
+<trkpt lat="-41.6146" lon="-72.5567"><ele>127</ele></trkpt>
+<trkpt lat="-41.6143" lon="-72.5569"><ele>128</ele></trkpt>
+<trkpt lat="-41.6154" lon="-72.5571"><ele>129</ele></trkpt>
+<trkpt lat="-41.6154" lon="-72.5575"><ele>129</ele></trkpt>
+<trkpt lat="-41.6147" lon="-72.5580"><ele>130</ele></trkpt>
+</trkseg></trk></gpx>

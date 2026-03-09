@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="senderos-del-sur">
+<trk><name>Salto Río Este</name>
+<desc>Sendero a cascada del Río Este en laderas del Calbuco.</desc>
+<trkseg>
+<trkpt lat="-41.3401" lon="-72.5797"><ele>180</ele></trkpt>
+<trkpt lat="-41.3412" lon="-72.5804"><ele>194</ele></trkpt>
+<trkpt lat="-41.3407" lon="-72.5812"><ele>209</ele></trkpt>
+<trkpt lat="-41.3406" lon="-72.5821"><ele>223</ele></trkpt>
+<trkpt lat="-41.3419" lon="-72.5830"><ele>237</ele></trkpt>
+<trkpt lat="-41.3420" lon="-72.5840"><ele>251</ele></trkpt>
+<trkpt lat="-41.3414" lon="-72.5849"><ele>266</ele></trkpt>
+<trkpt lat="-41.3424" lon="-72.5858"><ele>280</ele></trkpt>
+<trkpt lat="-41.3433" lon="-72.5857"><ele>297</ele></trkpt>
+<trkpt lat="-41.3431" lon="-72.5869"><ele>314</ele></trkpt>
+<trkpt lat="-41.3431" lon="-72.5881"><ele>331</ele></trkpt>
+<trkpt lat="-41.3444" lon="-72.5894"><ele>349</ele></trkpt>
+<trkpt lat="-41.3447" lon="-72.5906"><ele>366</ele></trkpt>
+<trkpt lat="-41.3443" lon="-72.5918"><ele>383</ele></trkpt>
+<trkpt lat="-41.3454" lon="-72.5929"><ele>400</ele></trkpt>
+<trkpt lat="-41.3463" lon="-72.5933"><ele>421</ele></trkpt>
+<trkpt lat="-41.3461" lon="-72.5942"><ele>443</ele></trkpt>
+<trkpt lat="-41.3460" lon="-72.5952"><ele>464</ele></trkpt>
+<trkpt lat="-41.3474" lon="-72.5963"><ele>486</ele></trkpt>
+<trkpt lat="-41.3478" lon="-72.5975"><ele>507</ele></trkpt>
+<trkpt lat="-41.3473" lon="-72.5987"><ele>529</ele></trkpt>
+<trkpt lat="-41.3484" lon="-72.6001"><ele>550</ele></trkpt>
+<trkpt lat="-41.3493" lon="-72.6020"><ele>569</ele></trkpt>
+<trkpt lat="-41.3492" lon="-72.6031"><ele>587</ele></trkpt>
+<trkpt lat="-41.3490" lon="-72.6041"><ele>606</ele></trkpt>
+<trkpt lat="-41.3504" lon="-72.6050"><ele>624</ele></trkpt>
+<trkpt lat="-41.3508" lon="-72.6059"><ele>643</ele></trkpt>
+<trkpt lat="-41.3503" lon="-72.6068"><ele>661</ele></trkpt>
+<trkpt lat="-41.3513" lon="-72.6078"><ele>680</ele></trkpt>
+<trkpt lat="-41.3521" lon="-72.6088"><ele>694</ele></trkpt>
+<trkpt lat="-41.3519" lon="-72.6097"><ele>709</ele></trkpt>
+<trkpt lat="-41.3516" lon="-72.6107"><ele>723</ele></trkpt>
+<trkpt lat="-41.3528" lon="-72.6118"><ele>737</ele></trkpt>
+<trkpt lat="-41.3531" lon="-72.6130"><ele>751</ele></trkpt>
+<trkpt lat="-41.3525" lon="-72.6143"><ele>766</ele></trkpt>
+<trkpt lat="-41.3533" lon="-72.6155"><ele>780</ele></trkpt>
+</trkseg></trk></gpx>

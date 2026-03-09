@@ -78,7 +78,7 @@ export function calculateRouteStats(points: GPXPoint[]): RouteStats {
 }
 
 /** Haversine distance between two lat/lng points in meters */
-function haversineDistance(
+export function haversineDistance(
   lat1: number, lng1: number,
   lat2: number, lng2: number
 ): number {

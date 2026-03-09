@@ -1,99 +1,119 @@
-import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
-import { Scene3D } from './ui/terrain/Scene3D'
-import { GPXImporter } from './ui/routes/GPXImporter'
-import { SampleRoutesLoader } from './ui/routes/SampleRoutesLoader'
-import { TrailSearch } from './ui/routes/TrailSearch'
-import { WikilocLink } from './ui/routes/WikilocLink'
-import { TerrainControls } from './ui/controls/TerrainControls'
-import { MapboxUsage } from './ui/controls/MapboxUsage'
-import { ElevationProfileChart } from './ui/analysis/ElevationProfileChart'
-import { RouteComparison } from './ui/analysis/RouteComparison'
-import type { GPXRoute } from './domain/gpx/gpx-parser'
-import { calculateRouteStats } from './domain/gpx/route-stats'
-import { calculateDifficulty } from './domain/difficulty/difficulty'
-import { generateScreenshotFilename, downloadCanvasScreenshot } from './domain/geo/screenshot'
-import { mapboxCounter } from './domain/geo/mapbox-request-counter'
-import { PUERTO_VARAS_CENTER } from './domain/geo/scene-config'
-import { latLngToTile, tileToBBox } from './domain/elevation/elevation'
+import { useState, useEffect, useMemo } from 'react'
+import type { Trek } from './domain/trek/trek'
+import type { SortCriteria, SortField } from './domain/trek/trek-catalog'
+import { sortTreks, filterByRegion, getRegions } from './domain/trek/trek-catalog'
+import { LocalStorageFavoritesStore } from './domain/favorites/favorites-store'
+import { LocalStorageEventLog } from './domain/events/event-log'
+import { loadAllTreks } from './domain/trek/load-treks'
+import { TrekCard } from './ui/trek/TrekCard'
+import { TrekDetail } from './ui/trek/TrekDetail'
+import { SortBar } from './ui/trek/SortBar'
+import { RegionFilter } from './ui/trek/RegionFilter'
 
 function App() {
-  const [routes, setRoutes] = useState<GPXRoute[]>([])
-  const [exaggeration, setExaggeration] = useState(1.5)
-  const [showSlopeHeatmap, setShowSlopeHeatmap] = useState(false)
-  const [mapboxRequests, setMapboxRequests] = useState(0)
-  const containerRef = useRef<HTMLDivElement>(null)
+  const [treks, setTreks] = useState<Trek[]>([])
+  const [selectedTrek, setSelectedTrek] = useState<Trek | null>(null)
+  const [sortCriteria, setSortCriteria] = useState<SortCriteria[]>([
+    { field: 'name', direction: 'asc' },
+  ])
+  const [regionFilter, setRegionFilter] = useState<string | null>(null)
+  const [loading, setLoading] = useState(true)
 
-  const bbox = useMemo(() => {
-    const tile = latLngToTile(PUERTO_VARAS_CENTER.lat, PUERTO_VARAS_CENTER.lng, 12)
-    return tileToBBox(tile.x, tile.y, tile.z)
-  }, [])
+  const favoritesStore = useMemo(() => new LocalStorageFavoritesStore(), [])
+  const eventLog = useMemo(() => new LocalStorageEventLog(), [])
+  const [favoritesVersion, setFavoritesVersion] = useState(0)
+  const [eventsVersion, setEventsVersion] = useState(0)
 
-  // Sync mapbox counter singleton → React state periodically
   useEffect(() => {
-    const id = setInterval(() => {
-      setMapboxRequests(mapboxCounter.getCount())
-    }, 2000)
-    return () => clearInterval(id)
+    loadAllTreks().then((loaded) => {
+      setTreks(loaded)
+      setLoading(false)
+    })
   }, [])
 
-  const handleScreenshot = useCallback(() => {
-    const canvas = containerRef.current?.querySelector('canvas')
-    if (canvas) {
-      downloadCanvasScreenshot(canvas, generateScreenshotFilename('terreno-3d'))
-    }
-  }, [])
+  const displayedTreks = useMemo(() => {
+    void favoritesVersion
+    const result = regionFilter ? filterByRegion(treks, regionFilter) : treks
+    return sortTreks(result, sortCriteria)
+  }, [treks, sortCriteria, regionFilter, favoritesVersion])
 
-  const addRoutes = useCallback((r: GPXRoute[]) => {
-    setRoutes((prev) => [...prev, ...r])
-  }, [])
+  const regions = useMemo(() => getRegions(treks), [treks])
+
+  const selectedEvents = useMemo(
+    () => (selectedTrek ? eventLog.getEvents(selectedTrek.id) : []),
+    [selectedTrek, eventLog, eventsVersion],
+  )
+
+  const handleSort = (field: SortField) => {
+    setSortCriteria((prev) => {
+      if (prev[0]?.field === field) {
+        return [
+          { field, direction: prev[0].direction === 'asc' ? 'desc' : 'asc' },
+          ...prev.slice(1),
+        ]
+      }
+      const rest = prev.filter((c) => c.field !== field)
+      return [{ field, direction: 'asc' }, ...rest]
+    })
+  }
+
+  const handleToggleFavorite = (id: string) => {
+    favoritesStore.toggle(id)
+    setFavoritesVersion((v) => v + 1)
+  }
+
+  const handleAddEvent = (trekId: string, date: string, description: string) => {
+    eventLog.addEvent(trekId, date, description)
+    setEventsVersion((v) => v + 1)
+  }
+
+  const handleDeleteEvent = (eventId: string) => {
+    eventLog.deleteEvent(eventId)
+    setEventsVersion((v) => v + 1)
+  }
+
+  if (selectedTrek) {
+    return (
+      <div className="min-h-screen bg-gray-50">
+        <TrekDetail
+          trek={selectedTrek}
+          isFavorite={favoritesStore.isFavorite(selectedTrek.id)}
+          events={selectedEvents}
+          onToggleFavorite={handleToggleFavorite}
+          onAddEvent={handleAddEvent}
+          onDeleteEvent={handleDeleteEvent}
+          onBack={() => setSelectedTrek(null)}
+        />
+      </div>
+    )
+  }
 
   return (
-    <div ref={containerRef} className="w-full h-screen relative bg-gray-900">
-      <Scene3D routes={routes} exaggeration={exaggeration} showSlopeHeatmap={showSlopeHeatmap} />
-      <div className="absolute top-4 left-4 text-white bg-black/50 px-4 py-2 rounded-lg pointer-events-none">
-        <h1 className="text-lg font-bold">Explorador de Terreno 3D</h1>
-        <p className="text-sm text-gray-300">Puerto Varas, Chile</p>
-      </div>
-      <div className="absolute top-4 right-4 w-72 space-y-3 pointer-events-auto max-h-[calc(100vh-2rem)] overflow-y-auto">
-        <MapboxUsage count={mapboxRequests} />
-        <TerrainControls
-          exaggeration={exaggeration}
-          onExaggerationChange={setExaggeration}
-          showSlopeHeatmap={showSlopeHeatmap}
-          onToggleSlopeHeatmap={() => setShowSlopeHeatmap((v) => !v)}
-          onScreenshot={handleScreenshot}
-        />
-        <GPXImporter onRoutesLoaded={addRoutes} />
-        <SampleRoutesLoader onRoutesLoaded={addRoutes} />
-        <TrailSearch bbox={bbox} onTrailsFound={addRoutes} />
-        <WikilocLink />
-        {routes.map((route, i) => {
-          const stats = calculateRouteStats(route.points)
-          const difficulty = calculateDifficulty(route.points)
-          return (
-            <div key={i} className="bg-black/70 text-white rounded-lg p-3 text-sm">
-              <div className="flex items-center justify-between">
-                <h3 className="font-bold text-green-400">{route.name}</h3>
-                <span
-                  className="text-xs font-bold px-2 py-0.5 rounded"
-                  style={{ backgroundColor: difficulty.color, color: '#000' }}
-                >
-                  {difficulty.label} ({difficulty.score})
-                </span>
-              </div>
-              <div className="grid grid-cols-2 gap-1 mt-2 text-xs text-gray-300">
-                <span>📏 {(stats.totalDistanceM / 1000).toFixed(1)} km</span>
-                <span>⏱️ {Math.round(stats.estimatedTimeMinutes)} min</span>
-                <span>⬆️ {Math.round(stats.totalAscentM)} m</span>
-                <span>⬇️ {Math.round(stats.totalDescentM)} m</span>
-                <span>📐 {stats.maxGradePercent.toFixed(0)}% máx</span>
-                <span>🏔️ {Math.round(stats.maxElevationM)} m</span>
-              </div>
-              <ElevationProfileChart route={route} />
-            </div>
-          )
-        })}
-        <RouteComparison routes={routes} />
+    <div className="min-h-screen bg-gray-50">
+      <header className="bg-green-700 text-white p-4">
+        <h1 className="text-xl font-bold">🏔️ Senderos del Sur</h1>
+        <p className="text-sm text-green-200">Región de los Lagos</p>
+      </header>
+      <div className="p-4 space-y-3">
+        <SortBar criteria={sortCriteria} onSort={handleSort} />
+        <RegionFilter regions={regions} selected={regionFilter} onSelect={setRegionFilter} />
+        {loading ? (
+          <p className="text-gray-500 text-center mt-8">Cargando senderos…</p>
+        ) : displayedTreks.length === 0 ? (
+          <p className="text-gray-500 text-center mt-8">No se encontraron senderos</p>
+        ) : (
+          <div className="space-y-3">
+            {displayedTreks.map((trek) => (
+              <TrekCard
+                key={trek.id}
+                trek={trek}
+                isFavorite={favoritesStore.isFavorite(trek.id)}
+                onToggleFavorite={handleToggleFavorite}
+                onSelect={setSelectedTrek}
+              />
+            ))}
+          </div>
+        )}
       </div>
     </div>
   )

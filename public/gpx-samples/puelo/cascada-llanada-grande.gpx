@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="senderos-del-sur">
+<trk><name>Cascada Llanada Grande</name>
+<desc>Caminata familiar a cascada en el Valle del Puelo.</desc>
+<trkseg>
+<trkpt lat="-41.6207" lon="-72.1508"><ele>80</ele></trkpt>
+<trkpt lat="-41.6208" lon="-72.1513"><ele>83</ele></trkpt>
+<trkpt lat="-41.6203" lon="-72.1517"><ele>86</ele></trkpt>
+<trkpt lat="-41.6213" lon="-72.1521"><ele>89</ele></trkpt>
+<trkpt lat="-41.6220" lon="-72.1523"><ele>91</ele></trkpt>
+<trkpt lat="-41.6213" lon="-72.1525"><ele>94</ele></trkpt>
+<trkpt lat="-41.6218" lon="-72.1527"><ele>97</ele></trkpt>
+<trkpt lat="-41.6229" lon="-72.1529"><ele>100</ele></trkpt>
+<trkpt lat="-41.6229" lon="-72.1545"><ele>104</ele></trkpt>
+<trkpt lat="-41.6223" lon="-72.1550"><ele>109</ele></trkpt>
+<trkpt lat="-41.6232" lon="-72.1554"><ele>113</ele></trkpt>
+<trkpt lat="-41.6240" lon="-72.1558"><ele>117</ele></trkpt>
+<trkpt lat="-41.6233" lon="-72.1561"><ele>121</ele></trkpt>
+<trkpt lat="-41.6237" lon="-72.1564"><ele>126</ele></trkpt>
+<trkpt lat="-41.6249" lon="-72.1568"><ele>130</ele></trkpt>
+<trkpt lat="-41.6249" lon="-72.1576"><ele>134</ele></trkpt>
+<trkpt lat="-41.6243" lon="-72.1582"><ele>139</ele></trkpt>
+<trkpt lat="-41.6252" lon="-72.1589"><ele>143</ele></trkpt>
+<trkpt lat="-41.6260" lon="-72.1595"><ele>147</ele></trkpt>
+<trkpt lat="-41.6253" lon="-72.1600"><ele>151</ele></trkpt>
+<trkpt lat="-41.6257" lon="-72.1605"><ele>156</ele></trkpt>
+<trkpt lat="-41.6269" lon="-72.1608"><ele>160</ele></trkpt>
+<trkpt lat="-41.6269" lon="-72.1602"><ele>166</ele></trkpt>
+<trkpt lat="-41.6263" lon="-72.1606"><ele>171</ele></trkpt>
+<trkpt lat="-41.6272" lon="-72.1610"><ele>177</ele></trkpt>
+<trkpt lat="-41.6280" lon="-72.1615"><ele>183</ele></trkpt>
+<trkpt lat="-41.6273" lon="-72.1621"><ele>189</ele></trkpt>
+<trkpt lat="-41.6277" lon="-72.1628"><ele>194</ele></trkpt>
+<trkpt lat="-41.6289" lon="-72.1635"><ele>200</ele></trkpt>
+<trkpt lat="-41.6289" lon="-72.1642"><ele>207</ele></trkpt>
+<trkpt lat="-41.6283" lon="-72.1645"><ele>214</ele></trkpt>
+<trkpt lat="-41.6292" lon="-72.1647"><ele>221</ele></trkpt>
+<trkpt lat="-41.6300" lon="-72.1649"><ele>229</ele></trkpt>
+<trkpt lat="-41.6294" lon="-72.1651"><ele>236</ele></trkpt>
+<trkpt lat="-41.6297" lon="-72.1653"><ele>243</ele></trkpt>
+<trkpt lat="-41.6309" lon="-72.1657"><ele>250</ele></trkpt>
+</trkseg></trk></gpx>

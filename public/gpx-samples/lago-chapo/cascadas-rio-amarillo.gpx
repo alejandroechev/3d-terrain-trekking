@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="senderos-del-sur">
+<trk><name>Cascadas Río Amarillo</name>
+<desc>Ruta exigente con 645m de desnivel.</desc>
+<trkseg>
+<trkpt lat="-41.3500" lon="-72.5707"><ele>150</ele></trkpt>
+<trkpt lat="-41.3513" lon="-72.5719"><ele>171</ele></trkpt>
+<trkpt lat="-41.3510" lon="-72.5731"><ele>193</ele></trkpt>
+<trkpt lat="-41.3511" lon="-72.5743"><ele>214</ele></trkpt>
+<trkpt lat="-41.3525" lon="-72.5755"><ele>236</ele></trkpt>
+<trkpt lat="-41.3527" lon="-72.5769"><ele>257</ele></trkpt>
+<trkpt lat="-41.3523" lon="-72.5783"><ele>279</ele></trkpt>
+<trkpt lat="-41.3534" lon="-72.5798"><ele>300</ele></trkpt>
+<trkpt lat="-41.3545" lon="-72.5813"><ele>326</ele></trkpt>
+<trkpt lat="-41.3544" lon="-72.5829"><ele>351</ele></trkpt>
+<trkpt lat="-41.3545" lon="-72.5846"><ele>377</ele></trkpt>
+<trkpt lat="-41.3560" lon="-72.5863"><ele>403</ele></trkpt>
+<trkpt lat="-41.3565" lon="-72.5879"><ele>429</ele></trkpt>
+<trkpt lat="-41.3561" lon="-72.5894"><ele>454</ele></trkpt>
+<trkpt lat="-41.3574" lon="-72.5909"><ele>480</ele></trkpt>
+<trkpt lat="-41.3584" lon="-72.5913"><ele>500</ele></trkpt>
+<trkpt lat="-41.3585" lon="-72.5926"><ele>520</ele></trkpt>
+<trkpt lat="-41.3584" lon="-72.5940"><ele>540</ele></trkpt>
+<trkpt lat="-41.3599" lon="-72.5955"><ele>560</ele></trkpt>
+<trkpt lat="-41.3605" lon="-72.5970"><ele>580</ele></trkpt>
+<trkpt lat="-41.3602" lon="-72.5987"><ele>600</ele></trkpt>
+<trkpt lat="-41.3613" lon="-72.6003"><ele>620</ele></trkpt>
+<trkpt lat="-41.3623" lon="-72.6009"><ele>634</ele></trkpt>
+<trkpt lat="-41.3622" lon="-72.6020"><ele>649</ele></trkpt>
+<trkpt lat="-41.3620" lon="-72.6032"><ele>663</ele></trkpt>
+<trkpt lat="-41.3633" lon="-72.6045"><ele>677</ele></trkpt>
+<trkpt lat="-41.3638" lon="-72.6058"><ele>691</ele></trkpt>
+<trkpt lat="-41.3633" lon="-72.6072"><ele>706</ele></trkpt>
+<trkpt lat="-41.3642" lon="-72.6086"><ele>720</ele></trkpt>
+<trkpt lat="-41.3653" lon="-72.6096"><ele>731</ele></trkpt>
+<trkpt lat="-41.3653" lon="-72.6108"><ele>741</ele></trkpt>
+<trkpt lat="-41.3650" lon="-72.6119"><ele>752</ele></trkpt>
+<trkpt lat="-41.3663" lon="-72.6129"><ele>763</ele></trkpt>
+<trkpt lat="-41.3669" lon="-72.6138"><ele>774</ele></trkpt>
+<trkpt lat="-41.3663" lon="-72.6146"><ele>784</ele></trkpt>
+<trkpt lat="-41.3672" lon="-72.6154"><ele>795</ele></trkpt>
+</trkseg></trk></gpx>

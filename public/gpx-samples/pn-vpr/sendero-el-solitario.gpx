@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="senderos-del-sur">
+<trk><name>Sendero El Solitario</name>
+<desc>Sendero por la ladera sur del Volcán Osorno con vistas al lago.</desc>
+<trkseg>
+<trkpt lat="-41.1309" lon="-72.5105"><ele>400</ele></trkpt>
+<trkpt lat="-41.1307" lon="-72.5117"><ele>429</ele></trkpt>
+<trkpt lat="-41.1313" lon="-72.5129"><ele>457</ele></trkpt>
+<trkpt lat="-41.1330" lon="-72.5141"><ele>486</ele></trkpt>
+<trkpt lat="-41.1332" lon="-72.5154"><ele>514</ele></trkpt>
+<trkpt lat="-41.1333" lon="-72.5169"><ele>543</ele></trkpt>
+<trkpt lat="-41.1349" lon="-72.5184"><ele>571</ele></trkpt>
+<trkpt lat="-41.1357" lon="-72.5200"><ele>600</ele></trkpt>
+<trkpt lat="-41.1361" lon="-72.5230"><ele>636</ele></trkpt>
+<trkpt lat="-41.1368" lon="-72.5250"><ele>671</ele></trkpt>
+<trkpt lat="-41.1388" lon="-72.5270"><ele>707</ele></trkpt>
+<trkpt lat="-41.1395" lon="-72.5289"><ele>743</ele></trkpt>
+<trkpt lat="-41.1397" lon="-72.5308"><ele>779</ele></trkpt>
+<trkpt lat="-41.1415" lon="-72.5327"><ele>814</ele></trkpt>
+<trkpt lat="-41.1428" lon="-72.5347"><ele>850</ele></trkpt>
+<trkpt lat="-41.1430" lon="-72.5370"><ele>871</ele></trkpt>
+<trkpt lat="-41.1435" lon="-72.5386"><ele>893</ele></trkpt>
+<trkpt lat="-41.1453" lon="-72.5401"><ele>914</ele></trkpt>
+<trkpt lat="-41.1460" lon="-72.5416"><ele>936</ele></trkpt>
+<trkpt lat="-41.1460" lon="-72.5430"><ele>957</ele></trkpt>
+<trkpt lat="-41.1476" lon="-72.5443"><ele>979</ele></trkpt>
+<trkpt lat="-41.1488" lon="-72.5455"><ele>1000</ele></trkpt>
+<trkpt lat="-41.1488" lon="-72.5468"><ele>1014</ele></trkpt>
+<trkpt lat="-41.1489" lon="-72.5480"><ele>1029</ele></trkpt>
+<trkpt lat="-41.1504" lon="-72.5492"><ele>1043</ele></trkpt>
+<trkpt lat="-41.1509" lon="-72.5505"><ele>1057</ele></trkpt>
+<trkpt lat="-41.1506" lon="-72.5518"><ele>1071</ele></trkpt>
+<trkpt lat="-41.1518" lon="-72.5533"><ele>1086</ele></trkpt>
+<trkpt lat="-41.1528" lon="-72.5549"><ele>1100</ele></trkpt>
+</trkseg></trk></gpx>

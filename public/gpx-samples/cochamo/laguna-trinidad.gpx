@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="senderos-del-sur">
+<trk><name>Laguna Trinidad</name>
+<desc>Sendero remoto hacia laguna alpina en bosque primario.</desc>
+<trkseg>
+<trkpt lat="-41.5301" lon="-72.3897"><ele>250</ele></trkpt>
+<trkpt lat="-41.5315" lon="-72.3904"><ele>271</ele></trkpt>
+<trkpt lat="-41.5313" lon="-72.3912"><ele>293</ele></trkpt>
+<trkpt lat="-41.5315" lon="-72.3921"><ele>314</ele></trkpt>
+<trkpt lat="-41.5330" lon="-72.3930"><ele>336</ele></trkpt>
+<trkpt lat="-41.5334" lon="-72.3940"><ele>357</ele></trkpt>
+<trkpt lat="-41.5331" lon="-72.3949"><ele>379</ele></trkpt>
+<trkpt lat="-41.5344" lon="-72.3958"><ele>400</ele></trkpt>
+<trkpt lat="-41.5356" lon="-72.3967"><ele>429</ele></trkpt>
+<trkpt lat="-41.5357" lon="-72.3979"><ele>457</ele></trkpt>
+<trkpt lat="-41.5359" lon="-72.3991"><ele>486</ele></trkpt>
+<trkpt lat="-41.5376" lon="-72.4004"><ele>514</ele></trkpt>
+<trkpt lat="-41.5382" lon="-72.4019"><ele>543</ele></trkpt>
+<trkpt lat="-41.5380" lon="-72.4034"><ele>571</ele></trkpt>
+<trkpt lat="-41.5394" lon="-72.4050"><ele>600</ele></trkpt>
+<trkpt lat="-41.5406" lon="-72.4064"><ele>629</ele></trkpt>
+<trkpt lat="-41.5407" lon="-72.4076"><ele>657</ele></trkpt>
+<trkpt lat="-41.5409" lon="-72.4090"><ele>686</ele></trkpt>
+<trkpt lat="-41.5425" lon="-72.4104"><ele>714</ele></trkpt>
+<trkpt lat="-41.5432" lon="-72.4120"><ele>743</ele></trkpt>
+<trkpt lat="-41.5430" lon="-72.4136"><ele>771</ele></trkpt>
+<trkpt lat="-41.5443" lon="-72.4153"><ele>800</ele></trkpt>
+<trkpt lat="-41.5456" lon="-72.4162"><ele>829</ele></trkpt>
+<trkpt lat="-41.5458" lon="-72.4176"><ele>857</ele></trkpt>
+<trkpt lat="-41.5459" lon="-72.4190"><ele>886</ele></trkpt>
+<trkpt lat="-41.5475" lon="-72.4206"><ele>914</ele></trkpt>
+<trkpt lat="-41.5483" lon="-72.4222"><ele>943</ele></trkpt>
+<trkpt lat="-41.5480" lon="-72.4239"><ele>971</ele></trkpt>
+<trkpt lat="-41.5492" lon="-72.4256"><ele>1000</ele></trkpt>
+<trkpt lat="-41.5504" lon="-72.4261"><ele>1021</ele></trkpt>
+<trkpt lat="-41.5506" lon="-72.4276"><ele>1043</ele></trkpt>
+<trkpt lat="-41.5504" lon="-72.4292"><ele>1064</ele></trkpt>
+<trkpt lat="-41.5518" lon="-72.4309"><ele>1086</ele></trkpt>
+<trkpt lat="-41.5526" lon="-72.4326"><ele>1107</ele></trkpt>
+<trkpt lat="-41.5522" lon="-72.4342"><ele>1129</ele></trkpt>
+<trkpt lat="-41.5532" lon="-72.4358"><ele>1150</ele></trkpt>
+<trkpt lat="-41.5542" lon="-72.4363"><ele>1140</ele></trkpt>
+<trkpt lat="-41.5543" lon="-72.4371"><ele>1130</ele></trkpt>
+<trkpt lat="-41.5540" lon="-72.4379"><ele>1120</ele></trkpt>
+<trkpt lat="-41.5552" lon="-72.4387"><ele>1110</ele></trkpt>
+<trkpt lat="-41.5559" lon="-72.4397"><ele>1100</ele></trkpt>
+<trkpt lat="-41.5554" lon="-72.4408"><ele>1090</ele></trkpt>
+<trkpt lat="-41.5561" lon="-72.4419"><ele>1080</ele></trkpt>
+</trkseg></trk></gpx>

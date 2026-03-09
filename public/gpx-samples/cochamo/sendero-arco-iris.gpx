@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="senderos-del-sur">
+<trk><name>Sendero Arco Iris</name>
+<desc>Ascenso desafiante desde La Junta con vistas a paredes de granito.</desc>
+<trkseg>
+<trkpt lat="-41.5301" lon="-72.3897"><ele>250</ele></trkpt>
+<trkpt lat="-41.5313" lon="-72.3904"><ele>279</ele></trkpt>
+<trkpt lat="-41.5310" lon="-72.3912"><ele>307</ele></trkpt>
+<trkpt lat="-41.5311" lon="-72.3921"><ele>336</ele></trkpt>
+<trkpt lat="-41.5325" lon="-72.3930"><ele>364</ele></trkpt>
+<trkpt lat="-41.5327" lon="-72.3940"><ele>393</ele></trkpt>
+<trkpt lat="-41.5323" lon="-72.3949"><ele>421</ele></trkpt>
+<trkpt lat="-41.5334" lon="-72.3958"><ele>450</ele></trkpt>
+<trkpt lat="-41.5345" lon="-72.3968"><ele>486</ele></trkpt>
+<trkpt lat="-41.5343" lon="-72.3979"><ele>521</ele></trkpt>
+<trkpt lat="-41.5345" lon="-72.3989"><ele>557</ele></trkpt>
+<trkpt lat="-41.5360" lon="-72.3998"><ele>593</ele></trkpt>
+<trkpt lat="-41.5364" lon="-72.4006"><ele>629</ele></trkpt>
+<trkpt lat="-41.5361" lon="-72.4014"><ele>664</ele></trkpt>
+<trkpt lat="-41.5374" lon="-72.4021"><ele>700</ele></trkpt>
+<trkpt lat="-41.5383" lon="-72.4030"><ele>736</ele></trkpt>
+<trkpt lat="-41.5381" lon="-72.4036"><ele>771</ele></trkpt>
+<trkpt lat="-41.5380" lon="-72.4043"><ele>807</ele></trkpt>
+<trkpt lat="-41.5394" lon="-72.4051"><ele>843</ele></trkpt>
+<trkpt lat="-41.5398" lon="-72.4060"><ele>879</ele></trkpt>
+<trkpt lat="-41.5393" lon="-72.4070"><ele>914</ele></trkpt>
+<trkpt lat="-41.5404" lon="-72.4081"><ele>950</ele></trkpt>
+<trkpt lat="-41.5413" lon="-72.4096"><ele>979</ele></trkpt>
+<trkpt lat="-41.5411" lon="-72.4103"><ele>1007</ele></trkpt>
+<trkpt lat="-41.5410" lon="-72.4108"><ele>1036</ele></trkpt>
+<trkpt lat="-41.5424" lon="-72.4113"><ele>1064</ele></trkpt>
+<trkpt lat="-41.5428" lon="-72.4118"><ele>1093</ele></trkpt>
+<trkpt lat="-41.5423" lon="-72.4123"><ele>1121</ele></trkpt>
+<trkpt lat="-41.5433" lon="-72.4128"><ele>1150</ele></trkpt>
+<trkpt lat="-41.5441" lon="-72.4139"><ele>1171</ele></trkpt>
+<trkpt lat="-41.5439" lon="-72.4149"><ele>1193</ele></trkpt>
+<trkpt lat="-41.5436" lon="-72.4158"><ele>1214</ele></trkpt>
+<trkpt lat="-41.5448" lon="-72.4167"><ele>1236</ele></trkpt>
+<trkpt lat="-41.5451" lon="-72.4175"><ele>1257</ele></trkpt>
+<trkpt lat="-41.5445" lon="-72.4182"><ele>1279</ele></trkpt>
+<trkpt lat="-41.5453" lon="-72.4187"><ele>1300</ele></trkpt>
+</trkseg></trk></gpx>

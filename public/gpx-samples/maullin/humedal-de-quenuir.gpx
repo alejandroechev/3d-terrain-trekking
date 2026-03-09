@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="senderos-del-sur">
+<trk><name>Humedal de Quenuir</name>
+<desc>Recorrido por humedal protegido con más de 68 especies de aves.</desc>
+<trkseg>
+<trkpt lat="-41.6108" lon="-73.5808"><ele>10</ele></trkpt>
+<trkpt lat="-41.6103" lon="-73.5814"><ele>10</ele></trkpt>
+<trkpt lat="-41.6109" lon="-73.5818"><ele>11</ele></trkpt>
+<trkpt lat="-41.6122" lon="-73.5823"><ele>11</ele></trkpt>
+<trkpt lat="-41.6119" lon="-73.5828"><ele>11</ele></trkpt>
+<trkpt lat="-41.6119" lon="-73.5833"><ele>11</ele></trkpt>
+<trkpt lat="-41.6133" lon="-73.5840"><ele>12</ele></trkpt>
+<trkpt lat="-41.6135" lon="-73.5847"><ele>12</ele></trkpt>
+<trkpt lat="-41.6134" lon="-73.5857"><ele>11</ele></trkpt>
+<trkpt lat="-41.6142" lon="-73.5868"><ele>11</ele></trkpt>
+<trkpt lat="-41.6156" lon="-73.5880"><ele>10</ele></trkpt>
+<trkpt lat="-41.6155" lon="-73.5893"><ele>10</ele></trkpt>
+<trkpt lat="-41.6156" lon="-73.5905"><ele>9</ele></trkpt>
+<trkpt lat="-41.6172" lon="-73.5917"><ele>9</ele></trkpt>
+<trkpt lat="-41.6176" lon="-73.5929"><ele>8</ele></trkpt>
+<trkpt lat="-41.6176" lon="-73.5930"><ele>8</ele></trkpt>
+<trkpt lat="-41.6184" lon="-73.5943"><ele>9</ele></trkpt>
+<trkpt lat="-41.6200" lon="-73.5957"><ele>9</ele></trkpt>
+<trkpt lat="-41.6201" lon="-73.5971"><ele>9</ele></trkpt>
+<trkpt lat="-41.6203" lon="-73.5985"><ele>9</ele></trkpt>
+<trkpt lat="-41.6220" lon="-73.5997"><ele>10</ele></trkpt>
+<trkpt lat="-41.6226" lon="-73.6009"><ele>10</ele></trkpt>
+<trkpt lat="-41.6227" lon="-73.6020"><ele>9</ele></trkpt>
+<trkpt lat="-41.6234" lon="-73.6031"><ele>9</ele></trkpt>
+<trkpt lat="-41.6250" lon="-73.6041"><ele>8</ele></trkpt>
+<trkpt lat="-41.6252" lon="-73.6050"><ele>8</ele></trkpt>
+<trkpt lat="-41.6253" lon="-73.6059"><ele>7</ele></trkpt>
+<trkpt lat="-41.6269" lon="-73.6068"><ele>7</ele></trkpt>
+<trkpt lat="-41.6277" lon="-73.6078"><ele>6</ele></trkpt>
+<trkpt lat="-41.6277" lon="-73.6098"><ele>6</ele></trkpt>
+<trkpt lat="-41.6283" lon="-73.6106"><ele>7</ele></trkpt>
+<trkpt lat="-41.6300" lon="-73.6114"><ele>7</ele></trkpt>
+<trkpt lat="-41.6302" lon="-73.6121"><ele>7</ele></trkpt>
+<trkpt lat="-41.6303" lon="-73.6129"><ele>7</ele></trkpt>
+<trkpt lat="-41.6319" lon="-73.6138"><ele>8</ele></trkpt>
+<trkpt lat="-41.6327" lon="-73.6147"><ele>8</ele></trkpt>
+</trkseg></trk></gpx>

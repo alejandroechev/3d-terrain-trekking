@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="senderos-del-sur">
+<trk><name>Laguna Sargazo</name>
+<desc>Sendero a la Laguna Sargazo por bosques de alerces milenarios.</desc>
+<trkseg>
+<trkpt lat="-41.5698" lon="-72.5600"><ele>100</ele></trkpt>
+<trkpt lat="-41.5706" lon="-72.5609"><ele>111</ele></trkpt>
+<trkpt lat="-41.5718" lon="-72.5619"><ele>123</ele></trkpt>
+<trkpt lat="-41.5713" lon="-72.5628"><ele>134</ele></trkpt>
+<trkpt lat="-41.5716" lon="-72.5637"><ele>146</ele></trkpt>
+<trkpt lat="-41.5730" lon="-72.5645"><ele>157</ele></trkpt>
+<trkpt lat="-41.5730" lon="-72.5652"><ele>169</ele></trkpt>
+<trkpt lat="-41.5727" lon="-72.5657"><ele>180</ele></trkpt>
+<trkpt lat="-41.5737" lon="-72.5668"><ele>194</ele></trkpt>
+<trkpt lat="-41.5750" lon="-72.5676"><ele>209</ele></trkpt>
+<trkpt lat="-41.5748" lon="-72.5683"><ele>223</ele></trkpt>
+<trkpt lat="-41.5751" lon="-72.5691"><ele>237</ele></trkpt>
+<trkpt lat="-41.5767" lon="-72.5699"><ele>251</ele></trkpt>
+<trkpt lat="-41.5769" lon="-72.5707"><ele>266</ele></trkpt>
+<trkpt lat="-41.5767" lon="-72.5717"><ele>280</ele></trkpt>
+<trkpt lat="-41.5777" lon="-72.5736"><ele>291</ele></trkpt>
+<trkpt lat="-41.5790" lon="-72.5748"><ele>303</ele></trkpt>
+<trkpt lat="-41.5788" lon="-72.5759"><ele>314</ele></trkpt>
+<trkpt lat="-41.5791" lon="-72.5769"><ele>326</ele></trkpt>
+<trkpt lat="-41.5806" lon="-72.5778"><ele>337</ele></trkpt>
+<trkpt lat="-41.5809" lon="-72.5786"><ele>349</ele></trkpt>
+<trkpt lat="-41.5807" lon="-72.5793"><ele>360</ele></trkpt>
+<trkpt lat="-41.5816" lon="-72.5802"><ele>369</ele></trkpt>
+<trkpt lat="-41.5830" lon="-72.5808"><ele>377</ele></trkpt>
+<trkpt lat="-41.5829" lon="-72.5815"><ele>386</ele></trkpt>
+<trkpt lat="-41.5831" lon="-72.5822"><ele>394</ele></trkpt>
+<trkpt lat="-41.5846" lon="-72.5830"><ele>403</ele></trkpt>
+<trkpt lat="-41.5850" lon="-72.5839"><ele>411</ele></trkpt>
+<trkpt lat="-41.5847" lon="-72.5849"><ele>420</ele></trkpt>
+</trkseg></trk></gpx>
